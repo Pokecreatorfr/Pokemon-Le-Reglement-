@@ -1,0 +1,12 @@
+
+
+14: centre pokemon 
+15 : grotte crystal
+16 : boutique pokemon 
+20 : maison hero
+21: Labo prof
+37 : tour carillon ( Ho ho Hgss )
+38 : grotte glace
+47 : Runies Alpha ( HGSS ) 
+48 : Parc naturel ( HGSS )
+51 : boutique velo 

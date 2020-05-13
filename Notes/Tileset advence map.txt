@@ -5,6 +5,8 @@
 16 : boutique pokemon 
 20 : maison hero
 21: Labo prof
+24 : interrieur original 
+36 : grotte ???
 37 : tour carillon ( Ho ho Hgss )
 38 : grotte glace
 47 : Runies Alpha ( HGSS ) 

@@ -1,0 +1,811 @@
+#dynamic 0x800000
+
+#org @start
+copybyte 0x20370D0 0x300553F
+compare LASTRESULT 0x1
+if 0x1 goto @janvier
+compare LASTRESULT 0x2
+if 0x1 goto @fevrier
+compare LASTRESULT 0x3
+if 0x1 goto @mars
+compare LASTRESULT 0x4
+if 0x1 goto @avril
+compare LASTRESULT 0x5
+if 0x1 goto @mai
+compare LASTRESULT 0x6
+if 0x1 goto @juin
+compare LASTRESULT 0x7
+if 0x1 goto @juillet
+compare LASTRESULT 0x8
+if 0x1 goto @aout
+compare LASTRESULT 0x9
+if 0x1 goto @septembre
+compare LASTRESULT 0xA
+if 0x1 goto @octobre
+compare LASTRESULT 0xB
+if 0x1 goto @novembre
+compare LASTRESULT 0xC
+if 0x1 goto @decembre
+End
+
+
+
+#org @janvier
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1janvier
+compare LASTRESULT 0x2
+if 0x1 goto @2janvier
+compare LASTRESULT 0x3
+if 0x1 goto @3janvier
+compare LASTRESULT 0x4
+if 0x1 goto @4janvier
+compare LASTRESULT 0x5
+if 0x1 goto @5janvier
+compare LASTRESULT 0x6
+if 0x1 goto @6janvier
+compare LASTRESULT 0x7
+if 0x1 goto @7janvier
+compare LASTRESULT 0x8
+if 0x1 goto @8janvier
+compare LASTRESULT 0x9
+if 0x1 goto @9janvier
+compare LASTRESULT 0xA
+if 0x1 goto @10janvier
+compare LASTRESULT 0xB
+if 0x1 goto @11janvier
+compare LASTRESULT 0xC
+if 0x1 goto @12janvier
+compare LASTRESULT 0xD
+if 0x1 goto @13janvier
+compare LASTRESULT 0xE
+if 0x1 goto @14janvier
+compare LASTRESULT 0xF
+if 0x1 goto @15janvier
+compare LASTRESULT 0x10
+if 0x1 goto @16janvier
+compare LASTRESULT 0x11
+if 0x1 goto @17janvier
+compare LASTRESULT 0x12
+if 0x1 goto @18janvier
+compare LASTRESULT 0x13
+if 0x1 goto @19janvier
+compare LASTRESULT 0x14
+if 0x1 goto @20janvier
+compare LASTRESULT 0x15
+if 0x1 goto @21janvier
+compare LASTRESULT 0x16
+if 0x1 goto @22janvier
+compare LASTRESULT 0x17
+if 0x1 goto @23janvier
+compare LASTRESULT 0x18
+if 0x1 goto @24janvier
+compare LASTRESULT 0x19
+if 0x1 goto @25janvier
+compare LASTRESULT 0x1A
+if 0x1 goto @26janvier
+compare LASTRESULT 0x1B
+if 0x1 goto @27janvier
+compare LASTRESULT 0x1C
+if 0x1 goto @28janvier
+compare LASTRESULT 0x1D
+if 0x1 goto @29janvier
+compare LASTRESULT 0x1E
+if 0x1 goto @30janvier
+compare LASTRESULT 0x1F
+if 0x1 goto @31janvier
+end
+
+#org @fevrier
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1fevrier
+if 0x1 goto @1fevrier
+compare LASTRESULT 0x2
+if 0x1 goto @2fevrier
+compare LASTRESULT 0x3
+if 0x1 goto @3fevrier
+compare LASTRESULT 0x4
+if 0x1 goto @4fevrier
+compare LASTRESULT 0x5
+if 0x1 goto @5fevrier
+compare LASTRESULT 0x6
+if 0x1 goto @6fevrier
+compare LASTRESULT 0x7
+if 0x1 goto @7fevrier
+compare LASTRESULT 0x8
+if 0x1 goto @8fevrier
+compare LASTRESULT 0x9
+if 0x1 goto @9fevrier
+compare LASTRESULT 0xA
+if 0x1 goto @10fevrier
+compare LASTRESULT 0xB
+if 0x1 goto @11fevrier
+compare LASTRESULT 0xC
+if 0x1 goto @12fevrier
+compare LASTRESULT 0xD
+if 0x1 goto @13fevrier
+compare LASTRESULT 0xE
+if 0x1 goto @14fevrier
+compare LASTRESULT 0xF
+if 0x1 goto @15fevrier
+compare LASTRESULT 0x10
+if 0x1 goto @16fevrier
+compare LASTRESULT 0x11
+if 0x1 goto @17fevrier
+compare LASTRESULT 0x12
+if 0x1 goto @18fevrier
+compare LASTRESULT 0x13
+if 0x1 goto @19fevrier
+compare LASTRESULT 0x14
+if 0x1 goto @20fevrier
+compare LASTRESULT 0x15
+if 0x1 goto @21fevrier
+compare LASTRESULT 0x16
+if 0x1 goto @22fevrier
+compare LASTRESULT 0x17
+if 0x1 goto @23fevrier
+compare LASTRESULT 0x18
+if 0x1 goto @24fevrier
+compare LASTRESULT 0x19
+if 0x1 goto @25fevrier
+compare LASTRESULT 0x1A
+if 0x1 goto @26fevrier
+compare LASTRESULT 0x1B
+if 0x1 goto @27fevrier
+compare LASTRESULT 0x1C
+if 0x1 goto @28fevrier
+compare LASTRESULT 0x1D
+if 0x1 goto @29fevrier
+end
+
+#org @mars
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1mars
+compare LASTRESULT 0x2
+if 0x1 goto @2mars
+compare LASTRESULT 0x3
+if 0x1 goto @3mars
+compare LASTRESULT 0x4
+if 0x1 goto @4mars
+compare LASTRESULT 0x5
+if 0x1 goto @5mars
+compare LASTRESULT 0x6
+if 0x1 goto @6mars
+compare LASTRESULT 0x7
+if 0x1 goto @7mars
+compare LASTRESULT 0x8
+if 0x1 goto @8mars
+compare LASTRESULT 0x9
+if 0x1 goto @9mars
+compare LASTRESULT 0xA
+if 0x1 goto @10mars
+compare LASTRESULT 0xB
+if 0x1 goto @11mars
+compare LASTRESULT 0xC
+if 0x1 goto @12mars
+compare LASTRESULT 0xD
+if 0x1 goto @13mars
+compare LASTRESULT 0xE
+if 0x1 goto @14mars
+compare LASTRESULT 0xF
+if 0x1 goto @15mars
+compare LASTRESULT 0x10
+if 0x1 goto @16mars
+compare LASTRESULT 0x11
+if 0x1 goto @17mars
+compare LASTRESULT 0x12
+if 0x1 goto @18mars
+compare LASTRESULT 0x13
+if 0x1 goto @19mars
+compare LASTRESULT 0x14
+if 0x1 goto @20mars
+compare LASTRESULT 0x15
+if 0x1 goto @21mars
+compare LASTRESULT 0x16
+if 0x1 goto @22mars
+compare LASTRESULT 0x17
+if 0x1 goto @23mars
+compare LASTRESULT 0x18
+if 0x1 goto @24mars
+compare LASTRESULT 0x19
+if 0x1 goto @25mars
+compare LASTRESULT 0x1A
+if 0x1 goto @26mars
+compare LASTRESULT 0x1B
+if 0x1 goto @27mars
+compare LASTRESULT 0x1C
+if 0x1 goto @28mars
+compare LASTRESULT 0x1D
+if 0x1 goto @29mars
+compare LASTRESULT 0x1E
+if 0x1 goto @30mars
+compare LASTRESULT 0x1F
+if 0x1 goto @31mars
+end
+
+#org @avril
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1avril
+compare LASTRESULT 0x2
+if 0x1 goto @2avril
+compare LASTRESULT 0x3
+if 0x1 goto @3avril
+compare LASTRESULT 0x4
+if 0x1 goto @4avril
+compare LASTRESULT 0x5
+if 0x1 goto @5avril
+compare LASTRESULT 0x6
+if 0x1 goto @6avril
+compare LASTRESULT 0x7
+if 0x1 goto @7avril
+compare LASTRESULT 0x8
+if 0x1 goto @8avril
+compare LASTRESULT 0x9
+if 0x1 goto @9avril
+compare LASTRESULT 0xA
+if 0x1 goto @10avril
+compare LASTRESULT 0xB
+if 0x1 goto @11avril
+compare LASTRESULT 0xC
+if 0x1 goto @12avril
+compare LASTRESULT 0xD
+if 0x1 goto @13avril
+compare LASTRESULT 0xE
+if 0x1 goto @14avril
+compare LASTRESULT 0xF
+if 0x1 goto @15avril
+compare LASTRESULT 0x10
+if 0x1 goto @16avril
+compare LASTRESULT 0x11
+if 0x1 goto @17avril
+compare LASTRESULT 0x12
+if 0x1 goto @18avril
+compare LASTRESULT 0x13
+if 0x1 goto @19avril
+compare LASTRESULT 0x14
+if 0x1 goto @20avril
+compare LASTRESULT 0x15
+if 0x1 goto @21avril
+compare LASTRESULT 0x16
+if 0x1 goto @22avril
+compare LASTRESULT 0x17
+if 0x1 goto @23avril
+compare LASTRESULT 0x18
+if 0x1 goto @24avril
+compare LASTRESULT 0x19
+if 0x1 goto @25avril
+compare LASTRESULT 0x1A
+if 0x1 goto @26avril
+compare LASTRESULT 0x1B
+if 0x1 goto @27avril
+compare LASTRESULT 0x1C
+if 0x1 goto @28avril
+compare LASTRESULT 0x1D
+if 0x1 goto @29avril
+compare LASTRESULT 0x1E
+if 0x1 goto @30avril
+end
+
+#org @mai
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1mai
+compare LASTRESULT 0x2
+if 0x1 goto @2mai
+compare LASTRESULT 0x3
+if 0x1 goto @3mai
+compare LASTRESULT 0x4
+if 0x1 goto @4mai
+compare LASTRESULT 0x5
+if 0x1 goto @5mai
+compare LASTRESULT 0x6
+if 0x1 goto @6mai
+compare LASTRESULT 0x7
+if 0x1 goto @7mai
+compare LASTRESULT 0x8
+if 0x1 goto @8mai
+compare LASTRESULT 0x9
+if 0x1 goto @9mai
+compare LASTRESULT 0xA
+if 0x1 goto @10mai
+compare LASTRESULT 0xB
+if 0x1 goto @11mai
+compare LASTRESULT 0xC
+if 0x1 goto @12mai
+compare LASTRESULT 0xD
+if 0x1 goto @13mai
+compare LASTRESULT 0xE
+if 0x1 goto @14mai
+compare LASTRESULT 0xF
+if 0x1 goto @15mai
+compare LASTRESULT 0x10
+if 0x1 goto @16mai
+compare LASTRESULT 0x11
+if 0x1 goto @17mai
+compare LASTRESULT 0x12
+if 0x1 goto @18mai
+compare LASTRESULT 0x13
+if 0x1 goto @19mai
+compare LASTRESULT 0x14
+if 0x1 goto @20mai
+compare LASTRESULT 0x15
+if 0x1 goto @21mai
+compare LASTRESULT 0x16
+if 0x1 goto @22mai
+compare LASTRESULT 0x17
+if 0x1 goto @23mai
+compare LASTRESULT 0x18
+if 0x1 goto @24mai
+compare LASTRESULT 0x19
+if 0x1 goto @25mai
+compare LASTRESULT 0x1A
+if 0x1 goto @26mai
+compare LASTRESULT 0x1B
+if 0x1 goto @27mai
+compare LASTRESULT 0x1C
+if 0x1 goto @28mai
+compare LASTRESULT 0x1D
+if 0x1 goto @29mai
+compare LASTRESULT 0x1E
+if 0x1 goto @30mai
+compare LASTRESULT 0x1F
+if 0x1 goto @31mai
+end
+
+#org @juin
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1juin
+compare LASTRESULT 0x2
+if 0x1 goto @2juin
+compare LASTRESULT 0x3
+if 0x1 goto @3juin
+compare LASTRESULT 0x4
+if 0x1 goto @4juin
+compare LASTRESULT 0x5
+if 0x1 goto @5juin
+compare LASTRESULT 0x6
+if 0x1 goto @6juin
+compare LASTRESULT 0x7
+if 0x1 goto @7juin
+compare LASTRESULT 0x8
+if 0x1 goto @8juin
+compare LASTRESULT 0x9
+if 0x1 goto @9juin
+compare LASTRESULT 0xA
+if 0x1 goto @10juin
+compare LASTRESULT 0xB
+if 0x1 goto @11juin
+compare LASTRESULT 0xC
+if 0x1 goto @12juin
+compare LASTRESULT 0xD
+if 0x1 goto @13juin
+compare LASTRESULT 0xE
+if 0x1 goto @14juin
+compare LASTRESULT 0xF
+if 0x1 goto @15juin
+compare LASTRESULT 0x10
+if 0x1 goto @16juin
+compare LASTRESULT 0x11
+if 0x1 goto @17juin
+compare LASTRESULT 0x12
+if 0x1 goto @18juin
+compare LASTRESULT 0x13
+if 0x1 goto @19juin
+compare LASTRESULT 0x14
+if 0x1 goto @20juin
+compare LASTRESULT 0x15
+if 0x1 goto @21juin
+compare LASTRESULT 0x16
+if 0x1 goto @22juin
+compare LASTRESULT 0x17
+if 0x1 goto @23juin
+compare LASTRESULT 0x18
+if 0x1 goto @24juin
+compare LASTRESULT 0x19
+if 0x1 goto @25juin
+compare LASTRESULT 0x1A
+if 0x1 goto @26juin
+compare LASTRESULT 0x1B
+if 0x1 goto @27juin
+compare LASTRESULT 0x1C
+if 0x1 goto @28juin
+compare LASTRESULT 0x1D
+if 0x1 goto @29juin
+compare LASTRESULT 0x1E
+if 0x1 goto @30juin
+end
+
+#org @juillet
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1juillet
+compare LASTRESULT 0x2
+if 0x1 goto @2juillet
+compare LASTRESULT 0x3
+if 0x1 goto @3juillet
+compare LASTRESULT 0x4
+if 0x1 goto @4juillet
+compare LASTRESULT 0x5
+if 0x1 goto @5juillet
+compare LASTRESULT 0x6
+if 0x1 goto @6juillet
+compare LASTRESULT 0x7
+if 0x1 goto @7juillet
+compare LASTRESULT 0x8
+if 0x1 goto @8juillet
+compare LASTRESULT 0x9
+if 0x1 goto @9juillet
+compare LASTRESULT 0xA
+if 0x1 goto @10juillet
+compare LASTRESULT 0xB
+if 0x1 goto @11juillet
+compare LASTRESULT 0xC
+if 0x1 goto @12juillet
+compare LASTRESULT 0xD
+if 0x1 goto @13juillet
+compare LASTRESULT 0xE
+if 0x1 goto @14juillet
+compare LASTRESULT 0xF
+if 0x1 goto @15juillet
+compare LASTRESULT 0x10
+if 0x1 goto @16juillet
+compare LASTRESULT 0x11
+if 0x1 goto @17juillet
+compare LASTRESULT 0x12
+if 0x1 goto @18juillet
+compare LASTRESULT 0x13
+if 0x1 goto @19juillet
+compare LASTRESULT 0x14
+if 0x1 goto @20juillet
+compare LASTRESULT 0x15
+if 0x1 goto @21juillet
+compare LASTRESULT 0x16
+if 0x1 goto @22juillet
+compare LASTRESULT 0x17
+if 0x1 goto @23juillet
+compare LASTRESULT 0x18
+if 0x1 goto @24juillet
+compare LASTRESULT 0x19
+if 0x1 goto @25juillet
+compare LASTRESULT 0x1A
+if 0x1 goto @26juillet
+compare LASTRESULT 0x1B
+if 0x1 goto @27juillet
+compare LASTRESULT 0x1C
+if 0x1 goto @28juillet
+compare LASTRESULT 0x1D
+if 0x1 goto @29juillet
+compare LASTRESULT 0x1E
+if 0x1 goto @30juillet
+compare LASTRESULT 0x1F
+if 0x1 goto @31juillet
+end
+
+#org @aout
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1aout
+compare LASTRESULT 0x2
+if 0x1 goto @2aout
+compare LASTRESULT 0x3
+if 0x1 goto @3aout
+compare LASTRESULT 0x4
+if 0x1 goto @4aout
+compare LASTRESULT 0x5
+if 0x1 goto @5aout
+compare LASTRESULT 0x6
+if 0x1 goto @6aout
+compare LASTRESULT 0x7
+if 0x1 goto @7aout
+compare LASTRESULT 0x8
+if 0x1 goto @8aout
+compare LASTRESULT 0x9
+if 0x1 goto @9aout
+compare LASTRESULT 0xA
+if 0x1 goto @10aout
+compare LASTRESULT 0xB
+if 0x1 goto @11aout
+compare LASTRESULT 0xC
+if 0x1 goto @12aout
+compare LASTRESULT 0xD
+if 0x1 goto @13aout
+compare LASTRESULT 0xE
+if 0x1 goto @14aout
+compare LASTRESULT 0xF
+if 0x1 goto @15aout
+compare LASTRESULT 0x10
+if 0x1 goto @16aout
+compare LASTRESULT 0x11
+if 0x1 goto @17aout
+compare LASTRESULT 0x12
+if 0x1 goto @18aout
+compare LASTRESULT 0x13
+if 0x1 goto @19aout
+compare LASTRESULT 0x14
+if 0x1 goto @20aout
+compare LASTRESULT 0x15
+if 0x1 goto @21aout
+compare LASTRESULT 0x16
+if 0x1 goto @22aout
+compare LASTRESULT 0x17
+if 0x1 goto @23aout
+compare LASTRESULT 0x18
+if 0x1 goto @24aout
+compare LASTRESULT 0x19
+if 0x1 goto @25aout
+compare LASTRESULT 0x1A
+if 0x1 goto @26aout
+compare LASTRESULT 0x1B
+if 0x1 goto @27aout
+compare LASTRESULT 0x1C
+if 0x1 goto @28aout
+compare LASTRESULT 0x1D
+if 0x1 goto @29aout
+compare LASTRESULT 0x1E
+if 0x1 goto @30aout
+compare LASTRESULT 0x1F
+if 0x1 goto @31aout
+end
+
+#org @septembre
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1septembre
+compare LASTRESULT 0x2
+if 0x1 goto @2septembre
+compare LASTRESULT 0x3
+if 0x1 goto @3septembre
+compare LASTRESULT 0x4
+if 0x1 goto @4septembre
+compare LASTRESULT 0x5
+if 0x1 goto @5septembre
+compare LASTRESULT 0x6
+if 0x1 goto @6septembre
+compare LASTRESULT 0x7
+if 0x1 goto @7septembre
+compare LASTRESULT 0x8
+if 0x1 goto @8septembre
+compare LASTRESULT 0x9
+if 0x1 goto @9septembre
+compare LASTRESULT 0xA
+if 0x1 goto @10septembre
+compare LASTRESULT 0xB
+if 0x1 goto @11septembre
+compare LASTRESULT 0xC
+if 0x1 goto @12septembre
+compare LASTRESULT 0xD
+if 0x1 goto @13septembre
+compare LASTRESULT 0xE
+if 0x1 goto @14septembre
+compare LASTRESULT 0xF
+if 0x1 goto @15septembre
+compare LASTRESULT 0x10
+if 0x1 goto @16septembre
+compare LASTRESULT 0x11
+if 0x1 goto @17septembre
+compare LASTRESULT 0x12
+if 0x1 goto @18septembre
+compare LASTRESULT 0x13
+if 0x1 goto @19septembre
+compare LASTRESULT 0x14
+if 0x1 goto @20septembre
+compare LASTRESULT 0x15
+if 0x1 goto @21septembre
+compare LASTRESULT 0x16
+if 0x1 goto @22septembre
+compare LASTRESULT 0x17
+if 0x1 goto @23septembre
+compare LASTRESULT 0x18
+if 0x1 goto @24septembre
+compare LASTRESULT 0x19
+if 0x1 goto @25septembre
+compare LASTRESULT 0x1A
+if 0x1 goto @26septembre
+compare LASTRESULT 0x1B
+if 0x1 goto @27septembre
+compare LASTRESULT 0x1C
+if 0x1 goto @28septembre
+compare LASTRESULT 0x1D
+if 0x1 goto @29septembre
+compare LASTRESULT 0x1E
+if 0x1 goto @30septembre
+end
+
+#org @octobre
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1octobre
+compare LASTRESULT 0x2
+if 0x1 goto @2octobre
+compare LASTRESULT 0x3
+if 0x1 goto @3octobre
+compare LASTRESULT 0x4
+if 0x1 goto @4octobre
+compare LASTRESULT 0x5
+if 0x1 goto @5octobre
+compare LASTRESULT 0x6
+if 0x1 goto @6octobre
+compare LASTRESULT 0x7
+if 0x1 goto @7octobre
+compare LASTRESULT 0x8
+if 0x1 goto @8octobre
+compare LASTRESULT 0x9
+if 0x1 goto @9octobre
+compare LASTRESULT 0xA
+if 0x1 goto @10octobre
+compare LASTRESULT 0xB
+if 0x1 goto @11octobre
+compare LASTRESULT 0xC
+if 0x1 goto @12octobre
+compare LASTRESULT 0xD
+if 0x1 goto @13octobre
+compare LASTRESULT 0xE
+if 0x1 goto @14octobre
+compare LASTRESULT 0xF
+if 0x1 goto @15octobre
+compare LASTRESULT 0x10
+if 0x1 goto @16octobre
+compare LASTRESULT 0x11
+if 0x1 goto @17octobre
+compare LASTRESULT 0x12
+if 0x1 goto @18octobre
+compare LASTRESULT 0x13
+if 0x1 goto @19octobre
+compare LASTRESULT 0x14
+if 0x1 goto @20octobre
+compare LASTRESULT 0x15
+if 0x1 goto @21octobre
+compare LASTRESULT 0x16
+if 0x1 goto @22octobre
+compare LASTRESULT 0x17
+if 0x1 goto @23octobre
+compare LASTRESULT 0x18
+if 0x1 goto @24octobre
+compare LASTRESULT 0x19
+if 0x1 goto @25octobre
+compare LASTRESULT 0x1A
+if 0x1 goto @26octobre
+compare LASTRESULT 0x1B
+if 0x1 goto @27octobre
+compare LASTRESULT 0x1C
+if 0x1 goto @28octobre
+compare LASTRESULT 0x1D
+if 0x1 goto @29octobre
+compare LASTRESULT 0x1E
+if 0x1 goto @30octobre
+compare LASTRESULT 0x1F
+if 0x1 goto @31octobre
+end
+
+#org @novembre
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1novembre
+compare LASTRESULT 0x2
+if 0x1 goto @2novembre
+compare LASTRESULT 0x3
+if 0x1 goto @3novembre
+compare LASTRESULT 0x4
+if 0x1 goto @4novembre
+compare LASTRESULT 0x5
+if 0x1 goto @5novembre
+compare LASTRESULT 0x6
+if 0x1 goto @6novembre
+compare LASTRESULT 0x7
+if 0x1 goto @7novembre
+compare LASTRESULT 0x8
+if 0x1 goto @8novembre
+compare LASTRESULT 0x9
+if 0x1 goto @9novembre
+compare LASTRESULT 0xA
+if 0x1 goto @10novembre
+compare LASTRESULT 0xB
+if 0x1 goto @11novembre
+compare LASTRESULT 0xC
+if 0x1 goto @12novembre
+compare LASTRESULT 0xD
+if 0x1 goto @13novembre
+compare LASTRESULT 0xE
+if 0x1 goto @14novembre
+compare LASTRESULT 0xF
+if 0x1 goto @15novembre
+compare LASTRESULT 0x10
+if 0x1 goto @16novembre
+compare LASTRESULT 0x11
+if 0x1 goto @17novembre
+compare LASTRESULT 0x12
+if 0x1 goto @18novembre
+compare LASTRESULT 0x13
+if 0x1 goto @19novembre
+compare LASTRESULT 0x14
+if 0x1 goto @20novembre
+compare LASTRESULT 0x15
+if 0x1 goto @21novembre
+compare LASTRESULT 0x16
+if 0x1 goto @22novembre
+compare LASTRESULT 0x17
+if 0x1 goto @23novembre
+compare LASTRESULT 0x18
+if 0x1 goto @24novembre
+compare LASTRESULT 0x19
+if 0x1 goto @25novembre
+compare LASTRESULT 0x1A
+if 0x1 goto @26novembre
+compare LASTRESULT 0x1B
+if 0x1 goto @27novembre
+compare LASTRESULT 0x1C
+if 0x1 goto @28novembre
+compare LASTRESULT 0x1D
+if 0x1 goto @29novembre
+compare LASTRESULT 0x1E
+if 0x1 goto @30novembre
+end
+
+#org @decembre
+copybyte 0x20370D0 0x3005540
+compare LASTRESULT 0x1
+if 0x1 goto @1decembre
+compare LASTRESULT 0x2
+if 0x1 goto @2decembre
+compare LASTRESULT 0x3
+if 0x1 goto @3decembre
+compare LASTRESULT 0x4
+if 0x1 goto @4decembre
+compare LASTRESULT 0x5
+if 0x1 goto @5decembre
+compare LASTRESULT 0x6
+if 0x1 goto @6decembre
+compare LASTRESULT 0x7
+if 0x1 goto @7decembre
+compare LASTRESULT 0x8
+if 0x1 goto @8decembre
+compare LASTRESULT 0x9
+if 0x1 goto @9decembre
+compare LASTRESULT 0xA
+if 0x1 goto @10decembre
+compare LASTRESULT 0xB
+if 0x1 goto @11decembre
+compare LASTRESULT 0xC
+if 0x1 goto @12decembre
+compare LASTRESULT 0xD
+if 0x1 goto @13decembre
+compare LASTRESULT 0xE
+if 0x1 goto @14decembre
+compare LASTRESULT 0xF
+if 0x1 goto @15decembre
+compare LASTRESULT 0x10
+if 0x1 goto @16decembre
+compare LASTRESULT 0x11
+if 0x1 goto @17decembre
+compare LASTRESULT 0x12
+if 0x1 goto @18decembre
+compare LASTRESULT 0x13
+if 0x1 goto @19decembre
+compare LASTRESULT 0x14
+if 0x1 goto @20decembre
+compare LASTRESULT 0x15
+if 0x1 goto @21decembre
+compare LASTRESULT 0x16
+if 0x1 goto @22decembre
+compare LASTRESULT 0x17
+if 0x1 goto @23decembre
+compare LASTRESULT 0x18
+if 0x1 goto @24decembre
+compare LASTRESULT 0x19
+if 0x1 goto @25decembre
+compare LASTRESULT 0x1A
+if 0x1 goto @26decembre
+compare LASTRESULT 0x1B
+if 0x1 goto @27decembre
+compare LASTRESULT 0x1C
+if 0x1 goto @28decembre
+compare LASTRESULT 0x1D
+if 0x1 goto @29decembre
+compare LASTRESULT 0x1E
+if 0x1 goto @30decembre
+compare LASTRESULT 0x1F
+if 0x1 goto @31decembre
+end

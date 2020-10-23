@@ -1,0 +1,3 @@
+les adresses qui sont utilisées comme nom pour les images, raw, palettes correspondent à:
+-pour les images et raw se sont les adresses des pointeurs
+-pour les palettes se sont les adresses des palettes

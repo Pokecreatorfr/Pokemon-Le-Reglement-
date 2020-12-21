@@ -1,0 +1,251 @@
+#include "src/config.h"
+
+##Tag Battle Fixes
+TagTeamExecutionCompleteHook 802E384
+
+##Script Commands
+ScrCmd_message 815FB50
+ScrCmd_hidemappopup 815FC78
+CreateSpriteLoadTable 0815fc5c
+
+##Specials
+
+#ifdef REPLACE_SOME_VANILLA_SPECIALS
+sp07C_BufferNickname 0815FF50
+sp07D_CheckTradedPokemon 0815FF54
+sp09E_NicknamePokemon 0815FFD8
+sp156_StartGhostBattle 081602B8
+sp18B_ShowFossilImage 0816038C
+#endif
+
+sp007_PokemonEVContestStatsChecker 0815FD7C
+sp008_PokemonIVChecker 0815FD80
+sp009_PokemonRibbonChecker 0815FD84
+sp00A_CheckPokerusTimer 0815FD88
+sp00B_CheckPokeball 0815FD8C
+sp00C_CheckCaptureLocation 0815FD90
+sp00D_CheckHappiness 0815FD94
+sp00E_CheckHeldItem 0815FD98
+sp00F_EVAdderSubtracter 0815FD9C
+sp010_IVSetter 0815FDA0
+sp011_RibbonSetterCleaner 0815FDA4
+sp012_PokerusSetter 0815FDA8
+sp013_IncreaseDecreaseHappiness 0815FDAC
+sp014_ChangeCapturedBall 0815FDB0
+sp015_ModifyHeldItem 0815FDB4
+sp016_ChangePokemonSpecies 0815FDB8
+sp017_ChangePokemonAttacks 0815FDBC
+sp018_CheckPokemonSpecies 0815FDC0
+sp019_CheckAttackPP 0815FDC4
+sp01A_CopyPartyData 0815FDC8
+sp01B_SwapPartyAndBoxData 0815FDCC
+
+sp024_AddTextByVariable 0815FDF0
+sp025_AddTextByPointer 0815FDF4
+
+sp02B_CheckABButtons 0815FE0C
+sp02C_CheckDPad 0815FE10
+sp02D_CheckStartSelect 0815FE14
+sp02E_CheckLRButtons 0815FE18
+sp02F_KeyDump 0815FE1C
+
+sp03E_AddVariables 0815FE58
+sp03F_SubtractVariables 0815FE5C
+sp040_MultiplyVariables 0815FE60
+sp041_DivideVariables 0815FE64
+sp042_ANDVariables 0815FE68
+sp043_ORVariables 0815FE6C
+sp044_XORVariables 0815FE70
+
+sp046_StartTimer 0815FE78
+sp047_HaltTimer 0815FE7C
+sp048_ResumeTimer 0815FE80
+sp049_StopTimer 0815FE84
+sp04A_GetTimerValue 0815FE88
+sp04B_StopAndUpdatePlaytime 0815FE8C
+sp04C_UpdatePlaytime 0815FE90
+sp04D_TimerValueReached 0815FE94
+sp04E_SaveTimerValue 0815FE98
+sp04F_StartTimerAtTime 0815FE9C
+sp050_StoreTimerToVariable 0815FEA0
+sp051_CanTeamParticipateInSkyBattle 0815FEA4
+sp052_GenerateFacilityTrainer 0815FEA8
+sp053_LoadFrontierIntroBattleMessage 0815FEAC
+sp054_GetBattleFacilityStreak 0815FEB0
+sp055_UpdateBattleFacilityStreak 0815FEB4
+sp056_DetermineBattlePointsToGive 0815FEB8
+sp057_ShowFrontierRecords 0815FEBC
+sp058_BufferSwarmText 0815FEC0 
+sp059_BufferSpeciesRoamingText 0815FEC4 
+sp05A_WildDataSwitch 0815FEC8
+sp05B_WildDataSwitchCanceller 0815FECC
+
+sp061_LoadTimerFromVariable 0815FEE4
+sp062_PokemonEraser 0815FEE8
+sp063_StatusChecker 0815FEEC
+sp064_InflictStatus 0815FEF0
+sp065_CheckMonHP 0815FEF4
+sp066_InflictPartyDamage 0815FEF8
+sp067_GenerateRandomBattleTowerTeam 0815FEFC
+sp068_GivePlayerFrontierMonGivenSpecies 0815FF00
+sp069_GivePlayerRandomFrontierMonByTier 0815FF04
+sp06A_GivePlayerFrontierMonByLoadedSpread 0815FF08
+sp06B_ReplacePlayerTeamWithMultiTrainerTeam 0815FF0C
+sp06C_SpliceFrontierTeamWithPlayerTeam 0815FF10
+sp06D_LoadFrontierMultiTrainerById 0815FF14
+sp06E_BufferBattleSandsRecords 0815FF18
+sp06F_CanTeamParticipateInBattleMine 0815FF1C
+sp070_RandomizeBattleMineBattleOptions 0815FF20
+sp071_LoadBattleMineRecordTier 0815FF24
+sp072_LoadBattleCircusEffects 0815FF28
+sp073_ModifyTeamForBattleTower 0815FF2C
+#sp074_IsPokemonStorageFull 0815FF30 - Predefined in vanilla FR
+sp075_MeasurePokemon1 0815FF34
+sp076_MeasurePokemon2 0815FF38
+
+sp07E_GetTileNumber 0815FF58
+sp07F_GetTileBehaviour 0815FF5C
+
+sp081_SetWalkingScript 0815FF64
+
+sp086_GetSafariBalls 0815FF78
+sp087_ChangeSafariBalls 0815FF7C
+sp088_GetSafariCounter 0815FF80
+sp089_SetSafariCounter 0815FF84
+sp08A_ReadPedometerValue 0815FF88
+
+sp097_StartGroundBattle 0815FFBC
+sp098_StartWaterBattle 0815FFC0
+sp09A_StopSounds 0815FFC8
+sp09C_OldManBattleModifier 0815FFD0
+
+sp0A0_CheckAndSetDailyEvent 0815FFE0
+sp0A1_UpdateTimeInVars 0815FFE4
+sp0A2_GetTimeDifference 0815FFE8
+
+sp0AC_LoadTrainerBDefeatText 08160010
+sp0AD_GetTimeOfDay 08160014
+sp0AE_ClearFlag 08160018
+sp0AF_DismountBicyle 0816001C
+sp0B0_LoadPartyPokemonTypes 08160020
+sp0B1_ChooseItemFromBag 08160024
+sp0B2_PokemonTypeInParty 08160028
+sp0B3_DoChooseNumberScreen 0816002C
+
+sp0C9_ForceOneKeyInput 08160084
+sp0CA_IgnoreKeys 08160088
+sp0CB_PlaceKeyScript 0816008C
+sp0CC_CanLearnDracoMeteorInParty 08160090
+
+sp0CF_BufferAbilityName 0816009C
+sp0D0_PokemonInPartyThatCanLearnTMHM 081600A0
+sp0D1_SetUpFollowerSprite 081600A4
+sp0D2_DestroyFollowerSprite 081600A8
+sp0D3_FaceFollowerSprite 081600AC
+
+sp0D9_GetHour 81600C4
+sp0DA_GetDayOfWeek 81600C8
+
+sp0E1_DoesPlayerHaveFollower 81600E4
+sp0E2_IsDexNavCompleteHere 81600E8
+sp0E4_ShowItemSpriteOnFindObtain 81600F0
+sp0E5_ClearItemSpriteAfterFindObtain 81600F4
+
+sp100_CanPlayerUseFlashInCurrentLocation 08160160
+sp101_CanPlayerFlyInCurrentLocation 08160164
+sp102_IsPlayerFacingSurfableWater 08160168
+sp103_IsPlayerFacingClimbableWaterfall 0816016C
+sp104_IsPlayerOnDiveableWater 08160170
+sp105_IsPlayerFacingClimbableWall 08160174
+sp109_IsPlayerFacingNPCWithOverworldPic 8160184
+sp10A_CanUseCutOnTree 8160188
+sp10B_CanUseRockSmashOnRock 816018C
+sp10C_CanUseStrengthOnBoulder 8160190
+
+sp115_RaidBattleAvailable 081601B4
+sp116_StartRaidBattleIntro 081601B8
+sp117_CreateRaidMon 081601BC
+sp118_StartRaidBattle 081601C0
+sp119_SetRaidBattleFlag 081601C4
+sp11A_ClearRaidBattleFlag 081601C8
+sp11B_AllRaidBattlesCompleted 081601CC
+sp11C_GiveRaidBattleRewards 081601D0
+
+sp12C_DoEnterPhraseScreen 08160210
+sp12D_CompareEnteredPhrase 08160214
+
+sp196_TryCopyTMNameToBuffer1 081603B8
+
+##Field Effects
+FldEff_BikeTireTracks 081D98D9
+
+## Expanded Text Buffers
+LoadTextBuffer07 08231E8C
+LoadTextBuffer08 08231E90
+LoadTextBuffer09 08231E94
+LoadTextBuffer0A 08231E98
+LoadTextBuffer0B 08231E9C
+LoadTextBuffer0C 08231EA0
+LoadTextBuffer0D 08231EA4
+
+## Character Customization
+NpcSpawnWithTemplate 0805e5f4
+LinkNpcFix 0805efe4
+
+## Dex Nav
+#OeiCaveEffect 081d98a9
+#PokeToolsFunc 083a7348
+#PokeToolsFunc 0806F404
+
+##Second Options Menu
+#CB2_InitQuestMenu 0806F534
+
+##Item Functions
+Task_ReturnToItemListAfterItemPurchase 0809BF64
+ItemUseCB_EvolutionStone 080A1768
+
+##Nicknaming
+KeyboardKeyHandler_Character 083E23D0
+
+##PSS Icons
+PhysicalSpecialSplitIconRoutine 0813A1A0
+
+##Expand Coins
+scrB3_CheckCoins 0815FC80
+scrB4_AddCoins 0815FC84
+scrB5_SubtractCoins 0815FC88
+
+##Animations
+UpdatedAnimStealItemFinalCallback 80A37B8
+
+##Dive
+PlayerAvatarTransition_Underwater 835B854
+PlayerAvatarTransition_HandleUnderwater 8471EEC
+
+##Muddy Slope Forced Movement
+MetatileBehavior_IsMuddySlope 835B7FC
+ForcedMovement_MuddySlope 835B800
+
+#ifdef UNBOUND
+FieldUseFunc_MaxPowder 8876C40
+FieldUseFunc_Honey 8876E7C
+FieldUseFunc_EVReducingBerry 8877C68
+FieldUseFunc_EVReducingBerry 8877C94
+FieldUseFunc_EVReducingBerry 8877CC0
+FieldUseFunc_EVReducingBerry 8877CEC
+FieldUseFunc_EVReducingBerry 8877D18
+FieldUseFunc_EVReducingBerry 8877D44
+FieldUseFunc_VsSeeker 887A054
+FieldUseFunc_FormChangeItem 887BE3C
+FieldUseFunc_FormChangeItem 887BE68
+FieldUseFunc_FormChangeItem 887BE94
+FieldUseFunc_FormChangeItem 887BE10
+FieldUseFunc_FormChangeItem 887CC54
+FieldUseFunc_FormChangeItem 887CC80
+FieldUseFunc_FormChangeItem 887CCAC
+FieldUseFunc_FormChangeItem 887CCD8
+FieldUseFunc_FormChangeItem 887D308
+FieldUseFunc_FormChangeItem 887D334
+FieldUseFunc_AbilityCapsule 8877168
+FieldUseFunc_AbilityCapsule 887CA9C
+#endif

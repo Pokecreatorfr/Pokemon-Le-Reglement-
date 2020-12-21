@@ -1,0 +1,75 @@
+MAX_LENGTH=6
+FILL_FF=True
+
+#org @gTypeNames
+#org @NAME_NORMAL
+Normal
+
+#org @NAME_FIGHTING
+Fight
+
+#org @NAME_FLYING
+Flying
+
+#org @NAME_POISON
+Poison
+
+#org @NAME_GROUND
+Ground
+
+#org @NAME_ROCK
+Rock
+
+#org @NAME_BUG
+Bug
+
+#org @NAME_GHOST
+Ghost
+
+#org @NAME_STEEL
+Steel
+
+#org @NAME_TYPELESS
+???
+
+#org @NAME_FIRE
+Fire
+
+#org @NAME_WATER
+Water
+
+#org @NAME_GRASS
+Grass
+
+#org @NAME_ELECTRIC
+Electr
+
+#org @NAME_PSYCHC
+Psychc
+
+#org @NAME_ICE
+Ice
+
+#org @NAME_DRAGON
+Dragon
+
+#org @NAME_DARK
+Dark
+
+#org @FAIRY_TYPE_ALIGNMENT_1
+-
+
+#org @FAIRY_TYPE_ALIGNMENT_2
+-
+
+#org @FAIRY_TYPE_ALIGNMENT_3
+-
+
+#org @FAIRY_TYPE_ALIGNMENT_4
+-
+
+#org @FAIRY_TYPE_ALIGNMENT_5
+-
+
+#org @NAME_FAIRY
+Fairy

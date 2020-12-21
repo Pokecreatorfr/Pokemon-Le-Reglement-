@@ -1,0 +1,272 @@
+#include "src/config.h"
+
+##Tables
+gMoveDescriptions 080E5440
+gMoveDescriptions 08137BC8
+gAbilityDescriptions 080001C4
+gAbilityDescriptions 081367A8
+gMoveAnimations 080725D0
+gMovesWithQuietBGM 080726E8
+gBattleAnimPicTable 08072914
+gBattleAnimPicTable 08072BF8
+gAnimationBackgrounds 08073960
+gBattleScriptingCommandsTable 08014C1C
+gBattleScriptingCommandsTable 08015A28
+gBattleScriptingCommandsTable 08015C6C
+gBattleScriptingCommandsTable 08015C98
+gBattleScriptingCommandsTable 0801D054
+
+gSpriteTemplateTable_TrainerBackSprites 0803F8A0
+gTrainerBackAnimsPtrTable 0803F8A4
+gTrainerBackPicPaletteTable 08034774
+gTrainerBackPicPaletteTable 080D6EA4
+gTrainerBackPicPaletteTable 080EAEC0
+gTrainerBackPicPaletteTable 08159458
+
+gExperienceTables 0802FFB8
+gExperienceTables 080300E4
+gExperienceTables 080301F4
+gExperienceTables 0803DCC8
+gExperienceTables 0803E828
+gExperienceTables 0803E894
+gExperienceTables 0804199C
+gExperienceTables 08043B88
+gExperienceTables 08043C0C
+gExperienceTables 08049F48
+gExperienceTables 080E7F10
+gExperienceTables 080E803C
+gExperienceTables 080E814C
+gExperienceTables 08136790
+gExperienceTables 0813AADC
+gExperienceTables 081569E8
+gExperienceTables 08156B14
+gExperienceTables 08156C24
+
+gSaveSectionOffsets 080DA23C
+
+gStatusConditionStringsTable 080D7850
+
+gTypeNames 080D8510
+gTypeNames 0811972C
+gTypeNames 0811977C
+
+##Scripts
+BattleScript_RainDishActivates 0801A4A0
+BattleScript_AIUseXstat 081D99F4
+FieldEffectScript_CaveDust 081D9714
+FieldEffectScript_Sparkles 081D9718
+FieldEffectScript_LavaBubbles 081D9768
+FieldEffectScript_MiningScanRing 081D976C
+SystemScript_FindItemMessage 081A67DD
+SystemScript_ObtainItem 08160450
+SystemScript_ObtainItemMessage 081A66AC
+SystemScript_PickedUpHiddenItem 081A685E
+
+##Wild -> The Wild
+TheWildString 080D7B78
+TheWildString 080D7CA0
+TheWildString 080D7D14
+TheWildString 080D7D88
+TheWildString 080D7DFC
+TheWildString 080D7E70
+TheWildString 080D82BC
+TheWildString 080D8584
+##The Foe -> The Opposing
+TheOpposingString 080D7B7C
+TheOpposingString 080D7CA4
+TheOpposingString 080D7D18
+TheOpposingString 080D7D8C
+TheOpposingString 080D7E00
+TheOpposingString 080D7E74
+TheOpposingString 080D82C0
+TheOpposingString 080D8554
+##Other Strings
+gText_AttackerChangedType 083FE030
+gText_CloakedInLight 083FE068
+gText_ShroudedInMist 083FE090
+gText_CanNoLongerEscape 083FE148
+gText_HazardsBlownAway 083FE188
+gText_AbilityPreventsConfusion 083FE234
+gText_FlashFirePowerUp 083FE238
+gText_AbilityPreventsStatLoss 083FE244
+gText_PkmnHurtsWith 083FE248
+gText_CriticalHit 083FE270
+gText_AbilityPreventsSpecificStatLoss 083FE3E0
+gText_ItemPumpedMon 083FE424
+gText_AbilityBlocksHealBell 083FE484
+gText_AbilityCuredStatusProblem 083FE49C
+
+sText_GotMoneyForWinning 083FDF84
+sText_OutofUsablePokemon 083FDF88
+sText_LostAgaintWild 083FDF8C
+
+sText_LostAgainstTrainer 083FE4C0
+sText_PaidPrizeMoney 083FE4C4
+sText_BlackedOut 083FE4F0
+
+gText_UsedVar2WildStronger 080A1B3C
+gText_UsedVar2WildWeaker 080A1AEC
+
+gText_PokemonAreNeeded 0845A32C
+
+##Gen 4 Player OW Running Fix
+gEventObjectImageAnim_RunSouth 083A3460
+gEventObjectImageAnim_RunNorth 083A3464
+gEventObjectImageAnim_RunWest 083A3468
+gEventObjectImageAnim_RunEast 083A346C
+gEventObjectImageAnim_RunSouth 083A34C0
+gEventObjectImageAnim_RunNorth 083A34C4
+gEventObjectImageAnim_RunWest 083A34C8
+gEventObjectImageAnim_RunEast 083A34CC
+
+EventScript_TrainerSpottedInitiate 08080374
+
+##Battle Scripts
+BattleScript_ItemSteal 08020E74
+BattleScript_PoisonedBy 08250634
+BattleScript_BurnedBy 08250638
+BattleScript_WasFrozen 0825063C
+BattleScript_MoveEffectWrap 08250660
+BattleScript_BadPoisonedBy 08250644
+BattleScript_ActionSwitch 0801640C
+
+##Battle Transitions
+sBT_Phase1Tasks 080D09E8
+sBT_Phase1Tasks 080D0A20
+sBT_Phase2Tasks 080D0A58
+sBT_Phase2Tasks 080D0A88
+
+##Poke Ball Expansion
+GetMonPokeBallHook 0803FE70
+gBallParticleSpriteTemplates 080F0268
+
+##Graphics
+Substitute_FrontTiles 080350F4
+Substitute_BackTiles 08035144
+Substitute_FrontPal 0803514C
+SurfPal 080AB464
+gMoveMenuInfoIcons 08107DAC
+Type_IconsTiles 08107DB0
+Type_IconsPal 08107D64
+TradeBallTiles 0826CDD4
+TradeBallPal 0826CDDC
+
+##PC Selection BRM
+#ifdef SELECT_FROM_PC
+pcSelect_newBrmTable 08094e48
+pcSelect_OperationsTable 0808fbc8
+pcSelect_OperationsTable 0808fce4
+#endif
+
+##Expanded Text Buffers
+sScriptStringVars 0806bcc0
+sScriptStringVars 0806bd08
+sScriptStringVars 0806bd58
+sScriptStringVars 0806bd8c
+sScriptStringVars 0806be88
+sScriptStringVars 0806bed0
+sScriptStringVars 0806bf0c
+sScriptStringVars 0806bf38
+
+CheckHasSpeciesJump 0803FDEC
+
+##New Naming Screen
+sNamingScreenTemplates 0809DB58
+sNamingScreenTitlePrintingFuncs 0809F588
+
+##New Field Moves
+gPartyMenu_ItemMenuActions 0845A74C
+gText_MoveItemWhere 0845A37C
+gText_DNASplicersFuseWithWhich 0845A380
+gFieldMoveDescriptions 081221D0
+gFieldMoveCursorCallbacks 08124614
+gFieldMoveCursorCallbacks 08124680
+gPartyMenuCursorOptions 08120F74
+gPartyMenuCursorOptions 08121FB8
+gPartyMenuCursorOptions 08122D18
+gPartyMenuCursorOptions 08122D48
+gFieldMoves 08122A7C
+
+##Bag Sorter
+sItemMenuActions 08109BA4
+sItemMenuActions 08109C20
+sItemMenuActions 08109C48
+
+##Grass Field Effects and Footstep Noises
+gFieldEffectScript_TallGrass 081D96BC
+gFieldEffectScript_JumpTallGrass 081D96DC
+gFieldEffectScript_LongGrass 081D96F0
+gFieldEffectScript_JumpLongGrass 081D96F4
+gFieldEffectScript_ShakingTallGrass 081D96F8
+gFieldEffectScript_ShakingLongGrass 081D96FC
+Wav_grass_footstep_sample 0848EE14
+Wav_sand_footstep_sample 0848EE20
+
+#ifdef CRITICAL_CAPTURE
+gBattleAnims_Special 08034238
+#endif
+
+##Start Menu
+sStartMenuActionTable 0806EF9C
+sStartMenuActionTable 0806F374
+sStartMenuActionTable 0806F3F8
+sStartMenuDescPointers 0806F138
+sStartMenuDescPointers 0806F368
+
+#ifdef UNBOUND
+TestScript 08B7AD70
+TestScript 08B7ADA0
+TestScript 087D67B0
+
+DESC_ROOST 08879c58
+DESC_FOCUSBLAST 08879c84
+DESC_ENERGYBALL 08879cb0
+DESC_BRINE 08879d08
+DESC_HONECLAWS 08879d34
+DESC_CHARGEBEAM 08879d60
+DESC_DRAGONPULSE 0887a288
+DESC_DRAINPUNCH 0887a2b4
+DESC_VENOSHOCK 0887a338
+DESC_SHADOWCLAW 0887a390
+DESC_PAYBACK 0887a3bc
+DESC_GIGAIMPACT 0887a414
+DESC_ROCKPOLISH 0887a440
+DESC_STONEEDGE 0887a498
+DESC_AVALANCHE 0887a4c4
+DESC_GYROBALL 0887a51c
+DESC_STEALTHROCK 0887a574
+DESC_FLAMECHARGE 0887a5a0
+DESC_LOWSWEEP 0887a5cc
+DESC_DARKPULSE 0887a5f8
+DESC_XSCISSOR 0887a650
+DESC_SCALD 0887a6a8
+DESC_POISONJAB 0887a6d4
+DESC_GRASSKNOT 0887a72c
+DESC_PLUCK 0887a784
+DESC_UTURN 0887a7b0
+DESC_FLASHCANNON 0887a808
+DESC_VOLTSWITCH 0887a834
+DESC_DRAGONTAIL 0887a860
+DESC_INCINERATE 0887a88c
+DESC_STRUGGLEBUG 0887a8b8
+DESC_BULLDOZE 0887a8e4
+DESC_FROSTBREATH 0887a910
+DESC_WORKUP 0887a93c
+DESC_WILDCHARGE 0887a968
+DESC_DAZZLINGGLEAM 0887a9ec
+DESC_PSYSHOCK 0887aa44
+DESC_SMARTSTRIKE 0887aa9c
+DESC_ACROBATICS 0887aac8
+DESC_SNARL 0887aaf4
+DESC_ROUND 0887aba4
+DESC_NATURALGIFT 0887abfc
+DESC_QUASH 0887ac28
+DESC_ROCKCLIMB 0887ae64
+#endif
+
+#ifdef INSTANT_TEXT
+gUnknown_841F428 080f78dc
+gText_TextSpeedMid 083cc330
+gText_TextSpeedFast 083cc334
+gText_TextSpeedInstant 083cc338
+#endif

@@ -1,0 +1,221 @@
+#org @gText_ChangeSaveType
+WRONG SAVE TYPE!\nPlease change to Flash 128k.
+
+#org @gText_MainMenuEnableRTC
+WARNING!\pThe correct system time could\nnot be read.\pEnable the Real Time Clock (RTC),\nand make sure the time is correct.
+
+#org @gText_UsedVar2WildStronger
+[BUFFER][01] used the\n[BUFFER][03].\pThe chance of encountering strong\nwild Pok\emon in this area increased.[FC][09]
+
+#org @gText_UsedVar2WildWeaker
+[BUFFER][01] used the\n[BUFFER][03].\pThe chance of encountering weak\nwild Pok\emon in this area increased.[FC][09]
+
+#org @gText_SecondBagItemCanBeRegisteredToL
+A second item in the Cube can be\nregistered to [L_BUTTON] for easy use.
+
+#org @gText_AutoRunEnable
+[GREEN]Auto-run[BLACK] has been [GREEN]enabled[BLACK].
+
+#org @gText_AutoRunDisable
+[GREEN]Auto-run[BLACK] has been [GREEN]disabled[BLACK].
+
+#org @gText_BikeTurboBoostEnable
+[GREEN]Turbo boost[BLACK] has been [GREEN]activated[BLACK].
+
+#org @gText_BikeTurboBoostDisable
+[GREEN]Turbo boost[BLACK] has been [GREEN]deactivated[BLACK].
+
+#org @gText_PoisonSurvial
+[BUFFER][02] survived the Poison.\nThe Poison faded away!
+
+#org @gText_ThrowInOnePremierBall
+You also get a [BUFFER][03] as\nan added bonus.[FC][09]
+
+#org @gText_ThrowInPremierBalls
+You also get [BUFFER][02] [BUFFER][03]s as\nan added bonus.[FC][09]
+
+#org @gText_AskUseAnotherRepel
+The repellent's effect wore off!\nWould you like to use another one?
+
+#org @gText_UsedAnotherRepel
+[BUFFER][01] used a [BUFFER][04].
+
+#org @gText_RepelWoreOff
+The repellent's effect wore off!
+
+#org @gText_FoundMultipleItems
+[PLAYER] found [BUFFER1] [BUFFER2]!
+
+#org @gText_ObtainedMultipleItems
+Obtained [BUFFER1] [BUFFER2]!
+
+#org @gText_ObtainedTMHM
+Obtained a [BUFFER][03]!\nIt contains [BUFFER][02].
+
+#org @gText_UseWhichRegisteredItem
+Use which item?
+
+#org @gText_ScurriedToNearestHealer
+[PLAYER] scurried to the nearest healer,\nprotecting the exhausted and fainted\nPok\emon from further harm[.]\p
+
+#org @gText_WantToScaleCliff
+The wall is very rocky[.]\nWould you like to use [BUFFER2]?
+
+#org @gText_RockIsRocky
+The wall is very rocky[.]\nWill a Pok\emon's move scale it?
+
+#org @gText_DefogBlewAwayFog
+[BUFFER1] blew away the fog!
+
+#org @gText_WaterDyed
+The water is dyed a deep blue[.]
+
+#org @gText_WaterMurkyBrown
+The water is a murky brown[.]
+
+#org @gText_WaterMurkyBrownUseSurf
+The water is a murky brown[.]\nWould you like to Surf?
+
+#org @gText_LikeToLavaSurf
+The magma glistens a crimson red[.]\nWould you like to surf on it?
+
+#org @gText_LavaSurfedWith
+[BUFFER1] started surfing on\nthe magma!
+
+#org @gText_LavaDyed
+The magma glistens a crimson red[.]
+
+#org @gText_WantToDive
+The sea is deep here.\nWould you like to use [BUFFER2]?
+
+#org @gText_WantToSurface
+Light is filtering down from above.\nWould you like to use [BUFFER2]?
+
+#org @gText_CantDive
+The sea is deep here. A Pok\emon\nmay be able to go underwater.
+
+#org @gText_CantSurface
+Light is filtering down from above.\nA Pok\emon may be able to surface.
+
+#org @gText_DoorIsLocked
+The door is locked.
+
+#org @gText_PsychicBarrier
+There appears to be some sort of\nPsychic barrier in the way.
+
+#org @gText_ClimbLadder
+Would you like to climb the\nladder?
+
+#org @gText_CantReachLadder
+You can't reach the ladder from\nhere!
+
+#org @gText_FollowNarrowPath
+Look!\nYou've found a narrow path.\pWill you follow it?
+
+#org @gText_FollowNarrowPathNowhere
+The narrow path went nowhere.
+
+#org @gText_WantToUseHeadbutt
+It's a moderately sized tree.\nWould you like to use Headbutt?
+
+#org @gText_TreeCanBeHeadbutted
+There's a formidable tree that\nlooks like it can be headbutted!
+
+#org @gText_StartMining
+The wall is bulging slightly.\nTry digging into it?
+
+//Mart Strings
+
+#org @gText_SingleTmBuy
+[BUFFER][02] [BUFFER][04],\nThat will be \$[BUFFER][03]. Okay?
+
+#org @gText_AlreadyOwnTM
+You already own that TM.[FC][09]
+
+//Bag Strings
+
+#org @gText_WantToSortItems
+Sort this pocket's\nitems how?
+
+#org @gMenuText_ByType
+Type
+
+#org @gMenuText_ByName
+Name
+
+#org @gMenuText_ByMost
+Most
+
+#org @gMenuText_ByLeast
+Least
+
+#org @gMenuText_ByAmount
+Amount
+
+#org @gText_name
+name
+
+#org @gText_type
+type
+
+#org @gText_most
+most
+
+#org @gText_least
+least
+
+#org @gText_amount
+amount
+
+#org @gText_SortItemsBy
+Sort items by\n[BUFFER1]?
+
+#org @gText_ItemsSortedBy
+Items sorted by\n[BUFFER1]!
+
+//Battle Tower Pokemon Select
+
+#org @gOtherText_NoMoreOnePoke
+No more than one Pok\emon\nmay enter.[FC][09]
+
+#org @gOtherText_NoMoreFourPoke
+No more than four Pok\emon\nmay enter.[FC][09]
+
+#org @gOtherText_NoMoreFivePoke
+No more than five Pok\emon\nmay enter.[FC][09]
+
+#org @gText_First
+FIRST
+
+#org @gText_Second
+SECOND
+
+#org @gText_Third
+THIRD
+
+#org @gText_Fourth
+FOURTH
+
+#org @gText_Fifth
+FIFTH
+
+#org @gText_Sixth
+SIXTH
+
+#org @gText_PokemonAreNeeded
+[BUFFER][02] Pok\emon are needed.
+
+#org @gText_EnterNumber
+Enter a Number
+
+#org @gText_EnterPhrase
+Enter a Phrase
+
+#org @gText_EnterPassword
+Enter Password
+
+#org @gText_Purchased
+Purchased
+
+#org @gText_StopZooming
+Stop zooming!

@@ -1,0 +1,645 @@
+#include "src/config.h"
+
+##Emit Functions
+EmitPrintString 800E2D4 2
+EmitPrintSelectionString 800E3EC 2
+EmitChooseMoveHook 800E524 3
+
+##Battle Terrain Functions
+GetBattleTerrainOverride 800FC2C 0
+LoadBattleTerrainGfx 800F260 1
+DrawBattleEntryBackground 800FAE0 0
+
+##Other Battle Stuff
+BuildTrainerPartyHook 800FF7E 0
+SpriteCB_WildMon 8011D64 1
+SpriteCB_WildMonShowHealthbox 8011DC8 1
+LoadProperAbilityBattleDataHook 8013144 0
+BattleBeginFirstTurn 801385C 0
+TrainerSlidingEndTurnHook 08013D14 1
+IsRunningFromBattleImpossible 08013D54 0
+DoubleWildUseItemRunFixHook 80142D8 0
+PartyMenuSwitchingHook 8014450 0
+ForfeitBattleTowerHook 80146AC 0
+GetWhoStrikesFirst 8014CD8 3
+SetActionsAndBanksTurnOrder 80150A8 0
+TurnValuesCleanUpAdditionHook 8015438 0
+RunTurnActionsFunctions 80155C8 0
+HandleEndTurn_BattleWon 8015670 0
+HandleEndTurn_BattleLost 801578C 0
+HandleEndTurn_RanFromBattle 8015850 0
+HandleAction_UseMove 8015CA0 0
+TryRunFromBattle 8016748 1
+GetBankForBattleScript 8016E24 1
+CancelMultiTurnMoves 80172E8 1
+PrepareStringBattle 80173AC 3
+TrySetCantSelectMoveBattleScript 8017594 0
+CheckMoveLimitations 801779C 3
+TurnBasedEffects 08018258 0
+HandleFaintedMonActions 08018F90 0
+HasNoMonsToSwitch 8019C10 3
+SetMoveEffect 801FF20 2
+FrontierCheckBattleOverHook 8022400 0
+OpenPartyScreenBatonPassExplosionFix 8024C16 0
+CalcMonHiddenPowerType 802B678 1
+SpriteCB_SlideInTrainer 8033EEC 1
+HealthBarChangeAmountHook 804A00C 4
+ReshowBattleScreenMonSpriteHook1 8077CD2 0
+ReshowBattleScreenMonSpriteHook2 8077ECA 0
+ReshowBattleScreenHealthboxSpriteHook 8078104 0
+BattleUseFunc_PokeDoll 80A2010 1
+
+HandleInputChooseAction 0802E438 0
+SwitchMoveDataHook 802EF90 0
+MoveSelectionDisplayMoveType 8030940 0
+PlayerHandleFormChange 8031E40 0
+PlayerHandleChooseAction 8032BD4 0
+PlayerHandleExpBarUpdate 08032F4C 1
+HandleDataTransfer 8033134 0
+OpponentHandleFormChange 08037760 0
+HandleDataTransfer 8038A2C 0
+AI_TrySwitchOrUseItem 8039C84 0
+LinkOpponentHandleFormChange 0803C318 0
+HandleDataTransfer 0803D200 0
+
+AIXItemStringHook 8016650 0
+XSpDefStatBoostHook 8041798 0
+PrepareStringForUsingXItem 8042D50 1
+GetMUS_ForBattle 8043FD4 0
+LoadProperMusicForLinkBattlesHook 80813B8 0
+DoStandardWildBattle 807F748 0
+BattleSetup_GetTerrainId 807FC5C 0
+EndBattleFlagClearHook 80159DC 0
+HandleIntroSlide 80BC3A0 1
+BufferStringBattle 080D7274 1
+BattleStringExpandPlaceholders 80D7868 2
+DisplayStatStageMessage 80D8486 0
+BufferMaxMoveNameBattle 80D84F6 0
+ExpandedAbilityNamesBattle2 80D860C 0
+
+##Multi Hooks
+MultiEnemyPokeballReadoutHook 8049088 0
+MultiInitPokemonOrderHook 800D8A0 0
+MultiBattleAddSecondOpponentHook 80132F8 0
+BattleIntroOpponent1SendsOutMonAnimation 801359C 0
+MultiMoneyCalcHook 8025904 2
+MultiTrainersSendOutHook2 8038DF4 1
+MultiTrainersSendOutHook4 8035EA0 0
+MultiTrainersSendOutGameCrashingFix 8035C30 0
+IsMultiBattle 811FA20 0
+PartnerSetupHook 800D458 0
+DisplayPartnerNameInPartyMenuHook 8127AE8 0
+TagTeamPartnerSendoutPokemonHook 8013758 0
+TagTeamThrowPokeballHook 80336A0 0
+TagTeamPokeballReadoutHook 8048FAC 1
+SetNewPartySelectTarget2 81200F8 2
+PlayerHandleDrawTrainerPic 803227C 0
+PlayerHandleTrainerSlide 8032428 0
+TagTeamBackspritePalHook 8033530 0
+
+##AI Hooks
+AIHandleItemUseHook 800D2CC 0
+OpponentHandleDrawTrainerPic 08037CD0 0
+OpponentHandleTrainerSlide 08037EA4 0
+OpponentHandleChooseMove 80385B0 0
+OpponentHandleChoosePokemon 8038744 0
+HasSuperEffectiveMoveAgainstOpponents 08039698 1
+FindMonWithFlagsAndSuperEffective 08039828 2
+GetMostSuitableMonToSwitchInto 8039E3C 0
+BattleAI_DoAIProcessing 080C7038 0
+BattleAI_HandleItemUseBeforeAISetup 080C6D0C 0
+
+##Mega Hooks
+MegaRetrieveDataHook 80148C0 0
+HandleInputChooseMove 802EA10 0
+InitMoveSelectionsVarsAndStrings 08032CB4 0
+PlayerHandleStatusIconUpdateHook 803301C 1
+OpponentHandleStatusIconUpdateHook 8038974 1
+LoadHealthBoxesIndicatorHook 8048398 2
+LoadMegaGraphicsHook 803495C 1
+MegaLevelStringHook 80483A4 1
+CreateShakerHook 804BE80 3
+ObjcShakerHook 804BEDC 2
+
+##Dynamax Hooks
+HandleSpeciesGfxDataChange 8034BF4 3
+DynamaxPalFadeHook1_LoadOpponentGfx 803443C 0
+DynamaxPalFadeHook2_LoadPlayerGfx 80345FC 0
+ClearTemporarySpeciesSpriteData 0803589C 2
+RaidBattleCoordHook1 80744B0 0
+RaidBattleCoordHook2 80744D8 0
+LoadAndCreateEnemyShadowSprites 8035538 0
+RaidBossHPColourHook 804A116 1
+HandleDynamaxOnTurnEnd 8018C98 0
+DeadRaidMonSpriteHook 8077CC4 1
+DeadRaidMonSpriteHook2 807524C 2
+
+CreateSummaryScreenGigantamaxIconHook 8139D2C 3
+SummaryScreen_ChangeCaughtBallSpriteVisibility 8139D54 1
+SummaryScreen_DestroyCaughtBallSprite 8139D90 0
+
+BatonPassEffects 08012850 0
+
+GiveMonToPlayer 8040B14 1
+ScriptGiveMon 80A011C 3
+
+ItemId_GetName 809A8BC 1
+
+##Overworld Hooks
+GetAdjustedInitialTransitionFlags 8055ACC 3
+Overworld_IsBikingAllowed 8055C9C 0
+apply_map_tileset_palette 80599C8 3
+MetatileBehavior_IsDiveable 8059FB0 1
+MetatileBehavior_IsUnableToEmerge 8059FCC 1
+#MetatileBehavior_IsCrackedFloor 805A1D8 1 Space isn't big enough for hooks
+#MetatileBehavior_IsBumpySlope 805A20C 1
+#MetatileBehavior_IsIsolatedVerticalRail 805A210 1
+#MetatileBehavior_IsIsolatedHorizontalRail 805A214 1
+#MetatileBehavior_IsVerticalRail 805A218 1
+#MetatileBehavior_IsHorizontalRail 805A21C 1
+DiveSpeedHook 805BA1C 0
+AutoRunHook 805BA30 0
+PlayerOnBikeCollide 805C1AC 1
+GetLedgeJumpDirection 80680F8 3
+RunOnTransitionMapScript 8069C44 0
+RunOnResumeMapScript 8069C50 0
+TryRunOnFrameMapScript 8069C74 0
+GetInteractedMetatileScript 806D1F0 3
+GetInteractedWaterScript 806D548 3
+TryStartStepCountScript 0806D698 1
+PlayerGoThroughDoor 0807E80C 1
+BattleSetup_ConfigureTrainerBattle 8080228 1
+SetTrainerFlags 80803FC 0
+BattleSetup_StartTrainerBattle 8080464 0
+SetUpTrainerEncounterMusic 8080628 0
+GetIntroSpeechOfApproachingTrainer 80806D8 0
+GetTrainerCantBattleSpeech 8080734 0
+DoPoisonFieldEffect 80A0618 0
+CheckForTrainersWantingBattle 8081B30 0
+CanUseEscapeRopeOnCurrMap 80A1B8C 0
+IsRunningDisallowedByMetatile 80BD4B8 1
+ReplaceOWSandstormPaletteHook 807D5F0 0
+WarpFadeOutScreen 0807DC18 1
+Waterfall3_MovePlayer 8084DA4 2
+SetCutGrassMetatile 8097B50 2
+BikeTurboBoostHook 80BD338 0
+GetPlayerSpeed 80BD674 0
+SuctionCupsHook 805D524 0
+FieldGetPlayerInputLButtonHook 806C9AC 0
+UseRegisteredItemHook 806CCFC 0
+
+##Party Menu Hooks
+DisplayPartyPokemonSelectForBattle 811F388 1
+CursorCb_Summary 8122D4C 1
+SetPartyMonFieldSelectionActions 81229FC 2
+CursorCb_NoEntry 8124278 1
+LoadMaxNumPokemonChooseBattleTowerStringHook 8124184 0
+CursorCb_Enter 8124154 1
+IsMonAllowedInBattleTower 8127550 1
+Task_ClosePartyMenuAfterText 81255BC 1
+CanPokemonSelectedBeEnteredInBattleTower 81275F8 0
+ExpandedAbilityNamesSummaryScreen 8136714 1
+FieldMoveBadgeHook 812461C 0
+ItemUseCB_MedicineStep 81253B0 2
+Task_DoLearnedMoveFanfareAfterText 8125CF4 1
+DrawLevelUpWindowPg2Hook 811E950 4
+
+##Battle Animation Hooks
+TryHandleLaunchBattleTableAnimationHook 803401E 4
+UpdateOamPriorityInAllHealthboxes 804828C 1
+ModifyMegaCryHook 8071F8E 1
+ScriptCmd_loadspritegfx 08072868 0
+TryStartShinyAnimation 080F1720 2
+ShinyAnimFixHook 080F187C 2
+SlideMonToOriginalPosHook 080991BA 0
+SlideMonToOffsetHook 080992E4 0
+AnimTask_SetCamouflageBlend 080BA934 1
+DetsinyBondASM1 080B6092 0
+DetsinyBondASM2 080B6160 0
+EmbargoASM 080b68e4 0
+BLACKHOLE_ASM 080b60bc 0
+ANCHORSHOT_ASM 080ae484 2
+FAIRY_LOCK_ASM 080aeba0 0
+LIGHTOFRUIN_ASM 080ae5ec 0
+SKILLSWAP_CHOOSER 080b39b4 0
+SLUDGE_WAVE_ASM 080ab43c 0
+ROLLOUT_TIMER_ASM 080b4c40 0
+HEX_SIDE_ASM 080b8d74 0
+ENCORE_USER_ASM 080e0da8 1
+DISABLE_TIME_ASM 080A7FF8 1
+WATERGUN_ASM 080A7C28 0
+ION_DELUGE_ASM 080AAC24 0
+CoreEnforcerASM 080A243C 0
+
+##Poke Ball Hooks
+CaptureExperienceEvolutionHook 8015A44 1
+GetPokeBallBattleScriptHook 801645E 0
+PlayerHandleBallThrowAnim 80327B0 0
+SetMonPokeBallHook 08040858 0
+LoadBallGfx 0804BEF4 1
+GetBattlerPokeballItemId 0804BF90 1
+GetProperBallIdHook1 0804AA1E 1
+GetProperBallIdHook2 080EF3A8 1
+AnimTask_LoadBallGfx 080EF490 1
+AnimTask_FreeBallGfx 080EF4B8 1
+AnimTask_ThrowBall 0x80EF5AC 1
+ItemIdToBallId 080EF52C 1
+OakIntroPokeballFixHook 804B946 0
+TradePokeballFixHook 804BBD8 0
+DoubleWildPokeBallItemUseFixHook 080A1E2C 0
+DoubleWildDexHook1 802D9D8 0
+DoubleWildDexHook2 802DAEC 0
+
+##Illusion Hooks
+BattleLoadOpponentMonSpriteGfxHook 803432C 2
+BattleLoadPlayerMonSpriteGfxHook 80344A4 2
+UpdateNickForIllusionHook 80496C8 2
+UpdatePokeBallForIllusionHook 804A9E0 1
+UpdateCryForOpponentIllusionHook 804B2E6 0
+UpdateCryForPlayerIllusionHook 804B310 0
+UpdateAltitudeForIllusionHook 8074598 2
+GetBattlerYDeltaFromSpriteId 80764EC 1
+GetBattlerSpriteCoordAttrPlayerIllusionHook 8076B5C 0
+GetBattlerSpriteCoordAttrEnemyIllusionHook 8076C1A 0
+
+##Wild Encounter Hooks
+StandardWildEncounter 8082CBC 2
+RockSmashWildEncounter 8082E54 0
+SweetScentWildEncounter 8082EC0 0
+DoesCurrentMapHaveFishingMons 8082F78 0
+FishingWildEncounter 8082FB0 1
+TryStandardWildEncounter 80833B0 1
+ScrCmd_setwildbattle 806C368 1
+sp138_StartLegendaryBattle 807F9D8 0
+CreateWildMon 80829FC 2
+GetLocalWildMon 8082FE8 1
+GetLocalWaterMon 8083074 0
+GetAbilityEncounterRateModType 8082C58 0
+GetMapBaseEncounterCooldown 0808324C 1
+
+#Roamer Hooks
+DestroyRoamerIconTownMapSwitchHook 80C111C 0
+CreateRoamerIconTownMapPostSwitchMapHook 80C120C 0
+DestroyRoamerIconTownMapCloseHook 80C2D44 0
+CreateRoamerIconTownMapHook 80C48AC 0
+HideOrShowRoamerIconTownMapHook 80C49F8 0
+ClearRoamersData 8141C54 0
+sp129_InitRoamer 8141D9C 0
+UpdateLocationHistoryForRoamers 8141DAC 0
+RoamersMoveToOtherLocationSet 8141DD4 0
+RoamersMove 8141E28 0
+UpdateFoughtRoamerHPStatus 8141FE8 1
+SetFoughtRoamerInactive 814201C 1
+
+##Save Expansion Hooks
+HandleWriteSector 80D9870 2
+HandleLoadSector 80D9E54 2
+HandleSavingData 80DA248 1
+LinkBattleSaveHook 806FC84 0
+NewGameSaveClearHook 8054A60 0
+ExpandedVarsHook 806E454 1
+ExpandedFlagsHook 806E5C0 1
+
+##Main Menu Hooks
+MainMenuBadSaveTypeMsgHook 800C61C 0
+MainMenuRTCWarningHook1 800C718 1
+MainMenuRTCWarningHook2 800C7A4 1
+
+##Other Hooks
+CalculateMonStatsNew 803E47C 1
+SetMonHeldItemHook 8040784 2
+GetMonAbility 8040D38 1
+DaycareInheritHiddenAbility 8046116 0
+RandomlyGivePartyPokerus 8043A68 1
+UpdatePartyPokerusTime 8043B38 1
+PartySpreadPokerus 8043B40 1
+SetMonExpWithMaxLevelCheck 8043B48 2
+GiveRandomFrontierMonByTier 802883C 3
+RandomizerShowPokepicHook 809D2FC 3
+
+##DNS
+TransferPlttBuffer 8070474 0
+DNSCreateBuyMenuHook 809AC84 0
+DNSEndBuyMenuHook 809C078 1
+
+##Select-From-PC
+pcSelect_ClosingCheck 0808ebb2 0
+pcSelect_HackWithdrawBRM 08094982 0
+pcSelect_ForceMulti 0810f99c 1
+pcSelect_ChooseSelect 0808d934 1
+pcSelect_NoPartyString 0808d3b8 1
+pcSelect_OperationsMsg 0808ed54 0
+pcSelect_SkipMultiGen 0808c3e0 0
+pcSelect_SkipWithdrawCount 0808c53c 1
+pcSelect_SwapDecision 0808ed8c 1
+
+##Keypad
+ReadKeys 080005E8 0
+DiveCheckEmergeHook 806CB30 0
+DiveCheckDownHook 806CCCC 0
+
+##Character Customization
+GetEventObjectGraphicsInfo 805F2C8 1
+InitPlayerAvatarHook 80570CC 3
+UpdateEventObjectLargerGraphicsId 805E150 0
+NewNpcInfo 805e964 4
+SetPlayerAvatarEventObjectIdAndObjectId 805F02C 2
+EventObjectSetGraphicsIdFix 805F168 0
+NPCMartFix 809BA6C 1
+CharacterCustomizationUpdateTrainerFrontPic2 810BD64 1
+PlayerGenderToFrontTrainerPicId 810C374 2
+GetPlayerAvatarGraphicsIdByStateIdAndGender 805C7E0 2
+GetPlayerAvatarGraphicsIdByStateId 805C808 1
+GetPlayerAvatarStateTransitionByGraphicsId 805C988 2
+GetPlayerAvatarGraphicsIdByCurrentState 805C9C8 0
+GetPlayerAvatarGenderByGraphicsId 805C824 1
+PlayerFishingFix 805D3AC 1
+GetEventObjectGraphicsInfoByEventObj 801D760 1
+
+#Pre-Battle Mughots
+GetTrainerBattleTransition 807FF80 0
+BT_Phase2Mugshot_LoadGfx 80D28A8 1
+BT_Phase2Mugshot_StartSpriteSlide 80D2A54 1
+BT_Phase2Mugshot_WaitForOpponentInPlace 80D2AD0 1
+BT_Phase2Mugshot_StartBlackFade 80D2C8C 1
+Mugshots_CreateOpponentPlayerSprites 80D2EA4 1
+ShiftTrainerMugshotSprite 80D3094 1
+
+##Dynamic Overworld Palettes
+SetPalFossilImage 0809d5a8 2
+LoadPalFossilImage 0809d538 1
+LoadPalFossilImage 0809d568 1
+DeleteOBJFreeTiles 08007280 1
+DeleteAllOBJs 0800779C 1
+DeleteReflection 080DAF88 0
+DeleteWarpArrow 080DB120 0
+SetPalMisc 080071B8 0
+SetPalEmotionBubble 08082664 3
+SetPalWarpArrow 080DB1AC 3
+SetPalItemfinderArrow 0813F434 0
+SetPalFameCheckerUnknown 0812D7A8 1
+SetPalNPC1 0805E6B0 0
+SetPalNPC2 0805EF78 0
+SetPalNPC3 0805EAB0 0
+SetPalNPC4 0805EBC0 0
+SetPalReflection 080DADB4 2
+SetPalSurf 080DC410 2
+SetPalFly 08087188 1
+SetPalFly2 08086D58 0
+SetPalShadow 080DB260 0
+RefreshFameCheckerNPCs 0812D2AC 0
+SetPalSSAnneWake 0815D4E8 0
+SetPalSSAnneSmoke 0815D600 2
+GetDarkeningType1 0807A2D0 0
+GetDarkeningType2 0807A428 0
+GetDarkeningType3 0807A544 0
+FogBrightenAll 0807AEC4 1
+FogBrightenOnStep 0807AAAC 0
+FogBrightenAndFadeIn 0807A644 0
+GetFadeType1 0807A0A8 1
+GetFadeType2 0807A860 2
+SetUpWeirdDisguise 080DCA00 3
+SetUpRockDisguise 080DC9F0 3
+SetUpTreeDisguise 080DC9E0 3
+ClearAllPalettes 0805F574 0
+FindPalette 080089E8 1
+FindOrLoadPalette 08008928 1
+PaletteNeedsFogBrightening 0807A748 1
+LoadCloudOrSandstormPalette 0807ABC0 1
+
+##Whiteout Hack
+DynamicWhiteoutMap 080BFD54 0
+WhiteoutScreenFix 0807F542 0
+FieldCB_RushInjuredPokemonToCenter 0807F5F0 0
+
+## Summary Screen
+CamomonsSummaryScreenHook 08136168 0
+ChangeSummaryScreenMonSinglesDoubles 0813b20c 1
+
+## Hall of Fame Fix
+CB2_DoHallOfFameScreen 080F1EFC 3
+Task_Hof_InitTeamSaveData 080F2114 3
+Task_Hof_DisplayMon 080F22B0 3
+Task_Hof_PrintMonInfoAfterAnimating 080F23A0 3
+Task_Hof_TryDisplayAnotherMon 080F2424 3
+Task_HofPC_CopySaveData 080F2AA4 3
+Task_HofPC_DrawSpritesPrintText 080F2B6C 3
+Task_HofPC_PrintMonInfo 080F2D60 3
+Task_Hof_InitMonData 080F1F74 3
+HallOfFame_PrintMonInfo 080F3194 3
+
+## Unhidden Power
+WriteTypeHook 08030984 0
+DisplayTypeHook 081368CC 1
+
+## Evolution Methods
+GetEvolutionTargetSpecies 08042EC4 3
+RemoveEvoItem 080CED5C 0
+EvolutionMovesHook 080CEDD4 1
+
+##Follow Me
+FollowMe_SetStateHook 08063CF4 1
+#FollowMe_LedgeHook 08068D58 0
+FollowMe_CollisionHook 08063928 0
+FollowMe_SurfHook 08086B00 0
+FollowMe_SurfBagHook 08056D12 0
+FollowMe_DismountSurf 805D140 0
+FollowMe_BikeHook 80A1330 0
+FollowMe_CreateAvatarHook2 080570EC 0
+FollowMe_StairsMoveHook 0807EB28 1
+FollowMe_EscalatorMoveHook 08084868 2
+FollowMe_EscalatorWarpEndHook 08084ACC 0
+FollowMe_WarpDoorEndHook 0807E1F8 0
+FollowMe_WarpArrowEndHook 0807E2B8 0
+FollowMe_WarpNormalEndHook 0807DF74 0
+FollowMe_WarpTeleportEndHook 807E364 0
+FollowMe_WarpStairsEndHook 0807EC5A 0
+FollowMe_WarpHoleEndHook 8084770 0
+FollowMe_LocalIdHook 0805DF60 3
+FollowMe_ScriptHook 0805FC20 3
+FollowMe_WhiteOutHook 8054E1A 2
+
+##Learn Move
+GiveMoveToBoxMon 0803E8B0 2
+SetMonMoveSlot 0803E964 3
+GiveBoxMonInitialMoveset 0803E9E0 1
+MonTryLearningNewMove 0803EA88 2
+GetMoveRelearnerMoves 08043C84 2
+GetLevelUpMovesBySpecies 08043DD4 2
+GetNumberOfRelearnableMoves 08043E2C 1
+
+#Pokedex
+PokedexLoadAlternateHeightHook 081058DC 0
+PokedexLoadAlternateWeightHook 08105A58 0
+SizeMinigameLoadAlternateHeightHook 080A0774 2
+PokedexScreenStats 08106370 0
+
+##Daycare
+GiveEggFromDaycare 080460D4 1
+CreateEgg 08046150 2
+IsEggPending 80463FC 1
+TriggerPendingDaycareEgg 080459F0 1
+FlameBodyMagmaArmorEggHook 08046390 1
+CreateHatchedMon 08046BFC 2
+OvalCharmHook 08046314 1
+
+##Shiny Charm
+CreateBoxMonHook 803DAD2 0
+#CheckHasSpeciesHook 803FD94 0
+
+##TM/HM/Tutor Expansion
+CanMonLearnTMHM 08043C2C 2
+CanMonLearnTMTutor 08120B20 3
+ItemIdToBattleMoveId 08125A78 1
+LoadTMNameWithNo 08131D48 2
+SortTmHms 0809A624 1
+FixTmHmDiscLoader 081336BC 0
+FixTmHmDiscLoader2 08133854 0
+FixTmHmDiscPos 08133798 2
+FixTmHmDiscPal 08133748 1  
+CheckIsHmMove 08125A90 1
+CheckIsHmMove 080441b8 1
+FixMartTmListing 0809B4A4 0
+TmMartDescriptionFix 0809B340 1
+
+#ifdef EXPANDED_MOVE_TUTORS
+GetExpandedTutorMove 08120BA8 1
+DracoMeteorMoveTutorHook 8126E6C 0
+DracoMeteorMoveTutorHook2 8126E74 0
+#endif
+
+##Reusable TMs
+ReusableTMCheck1 08124EA0 0
+ReusableTMCheck2 08124F6C 0
+ReusableTMCheck3 08125C74 0
+HmSymbolFix 08131E96 1
+SelectedTmSymbolFix 0813250A 0
+SingleTmPurchaseFix 0809BC7C 0
+AddSingleTmFix 0809BEBC 1
+UnbuyableTmFix 0809BC3E 0
+FixTmShopPrice 0809B41C 4
+UnsellableTmFix 0813291C 0
+ReloadMartList 0809BECA 0
+
+##Start Menu
+SetUpStartMenu 0806ed54 0
+StartCB_HandleInput 0806F280 0
+FixStartMenuSize 080f78f4 0
+
+##Pokemon Storage System
+SendMonToPC 8040B90 1
+GetBoxMonDataAt 808BA18 3
+SetBoxMonDataAtHook 808BA60 2
+GetBoxMonNickAt 808BAE4 3
+SetBoxMonNickAt 808BB2C 3
+GetAndCopyBoxMonDataAtHook 808BB70 2
+SetBoxMonAt 808BBB4 3
+CopyBoxMonAt 808BBF4 3
+#CreateBoxMonAt 808BC34 - Doesn't need to be hooked in. No vanilla funcs call.
+ZeroBoxMonAt 808BCB4 2
+BoxMonAtToMon 808BCF0 3
+GetBoxedMonPtr 808BD30 2
+GetBoxNamePtr 808BD6C 1
+sub_808BDE8Hook 808BDF0 0
+GetBoxWallpaper 808BD94 1
+SetBoxWallpaper 808BDBC 2
+PlaceBoxMonIcon 8090D58 2
+sub_80916F4 80916F4 1
+ExpandedItemNameFixPokemonStorageSystemHook 8093F58 3
+CompressedStorageSummaryScreenUpdate1 8093768 1
+CompressedStorageSummaryScreenUpdate2 8138BD2 1
+CompressedStorageSummaryScreenUpdate2 813936E 1
+SwapBoxMonMovesUpdate1 8139208 1
+SwapBoxMonMovesUpdate2 8139304 0
+
+## Updated Repel System
+UpdateRepelCounter 080830B8 0
+TaskRepel 080A19E8 1
+
+##Bag
+AreItemsDisabledHook 80143D4 0
+GetCurrentPocketItemAmountHook 8028760 0
+ExpandedBerriesFix1 806BDEC 0
+SetMemoryForBagStorage 8099E44 0
+DoesBagHaveBerry 8099FAC 0
+CompactItemsInBagPocket 809A584 2
+SortBerriesOrTMHMs 809A720 1
+SanitizeItemId 809A8A4 1
+BerryIdFromItemId 809C8E4 1
+PrintRegisteredItemInBagHook 810872C 0
+AllocateBagItemListBuffers 81083F4 0
+PrintItemDescriptionOnMessageWindow 8108818 1
+OpenBagBugFix1 8108A1C 1
+OpenBagBugFix2 8108A40 0
+OpenBagBugFix3 8108AC0 0
+CountItemsInBag 8108DC8 1
+GetSmallestItemAmount 8108E20 0
+BagSorterHook 810900C 1
+SelectItemFromBagCheck 81090B8 0
+PrepRedrawItemDescriptionOnEndMovingItem 810948A 0
+RegisteredItemBagActionsHook 8109A44 0
+BagSorterHook2 8109AD4 0
+BagSorterHook3 8109B5C 1
+RegisterItemHook 810A02A 0
+BackupPlayerBag 810ADD8 0
+RestorePlayerBag 810AECC 0
+SelectItemFromTMCaseCheck 81323B0 0
+PokeDudeBackupTMCaseHook 8132E76 1
+PokeDudeClearTMCaseHook 8132EB0 0
+PokeDudeRestoreTMCaseHook 813318C 0
+AllocateBerryPouchSpace 813D1C0 0
+GetBerryNameBerryIdFix 813D33C 0
+ExpandedBerriesFix2 814A490 0
+
+##Move Reminder
+FixReminderCalloc 080E47A4 0
+FixLoadMoveId1 080E4AA0 3
+FixLoadMoveId2 080E4CB2 6
+FixLoadMoveId3 080E4E0A 1
+FixLoadMoveId4 080E4E28 3
+FixLoadMoveId5 080E4F90 0
+FixNumRelearnableMoves 080E50E8 2
+FixMoveNameLoading 080E523E 2
+FixMoveReminderDataLoading 080E54D0 1
+FixWindowTemplates 080E46B4 0
+
+##Triple Layer Blocks
+DrawBlockHook 0805A9B8 1
+
+##Footstep Sounds
+#GrassFootstepNoiseHook 80DB3C8 1
+VeryTallGrassFootstepNoiseHook 80DB678 1
+SandFootstepNoiseHook 80DB9C4 1
+
+##Expand Coins
+GetCoins 080D0554 0
+SetCoins 080D057C 1
+GiveCoins 080D05A4 1
+TakeCoins 080D05E4 1
+ExpandCoinIntConversion 080D06D6 2
+
+##Safari Zone
+SetInitialSafariZoneParams 080A0ED0 1
+FixSafariZoneWindow 0806EE98 0
+FixSafariZoneBattleWindow 08049D1A 1
+
+#ifdef SCROLLING_MULTICHOICE
+
+##Scrolling Multichoice
+CustomScrollingMultichoiceHook 080CB94C 0
+ScrollingMultiSizeHook 080CB82A 0
+#endif
+
+#ifdef CRITICAL_CAPTURE
+CriticalCaptureAnimHook 080EFEE4 0
+SpriteCB_InitThrownBallBouncing 080EFB58 1
+PlayerHandleSuccessBallThrowAnim 0803275C 0
+PlayerHandleBallThrowAnim 080327B0 0
+#endif
+
+ActivateMGBAPrint 81E381C 0
+
+#ifdef INSTANT_TEXT
+FixInstantTextOptionSpeed 08002D10 0
+RunTextPrintersForInstantTextHook 08002DEE 0
+#endif

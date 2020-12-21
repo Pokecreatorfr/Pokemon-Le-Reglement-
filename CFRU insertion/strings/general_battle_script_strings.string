@@ -1,0 +1,375 @@
+#org @gText_SuperEffectiveTarget
+It's super effective on\n[TARGET]!
+
+#org @gText_SuperEffectiveTwoFoes
+It's super effective on [DEF_PREFIX_5]\n[TARGET_NAME] and [TARGET_PARTNER_NAME]!
+
+#org @gText_NotVeryEffectiveTarget
+It's not very effective on\n[TARGET][.]
+
+#org @gText_NotVeryEffectiveTwoFoes
+It's not very effective on [DEF_PREFIX_5]\n[TARGET_NAME] and [TARGET_PARTNER_NAME][.]
+
+#org @gText_DoesntAffectTwoFoes
+It had no effect on [DEF_PREFIX_5]\n[TARGET_NAME] and [TARGET_PARTNER_NAME][.]
+
+#org @gText_CriticalHit
+[MAIN_COLOUR][02][SHADOW_COLOUR][09]A critical hit!
+
+#org @gText_CriticalHitTarget
+[MAIN_COLOUR][02][SHADOW_COLOUR][09]A critical hit[MAIN_COLOUR][01][SHADOW_COLOUR][06] on\n[TARGET]!
+
+#org @gText_CriticalHitTwoFoes
+[MAIN_COLOUR][02][SHADOW_COLOUR][09]A critical hit[MAIN_COLOUR][01][SHADOW_COLOUR][06] on [DEF_PREFIX_5]\n[TARGET_NAME] and [TARGET_PARTNER_NAME]!
+
+#org @TrickRoomSetString
+[ATTACKER] twisted\nthe dimensions!
+
+#org @WonderRoomSetString
+It created a bizarre area in which\nthe Def and Sp. Def stats are swapped!
+
+#org @MagicRoomSetString
+It created a bizarre are in which\nheld items lose their effects!
+
+#org @GravitySetString
+Gravity intensified!
+
+#org @IonDelugeShowerString
+A deluge of ions showers the\nbattlefield!
+
+#org @NoMoreAirborneFromGravityString
+[SCRIPTING_BANK] couldn't\nstay airborne due to Gravity!
+
+#org @Bank0AWasBroughtDownString
+[SCRIPTING_BANK] was\nbrought down!
+
+#org @ElectricTerrainSetString
+An electric current runs across\nthe battlefield!
+
+#org @GrassyTerrainSetString
+Grass grew to cover the\nbattlefield!
+
+#org @MistyTerrainSetString
+Mist swirls around the\nbattlefield!
+
+#org @PsychicTerrainSetString
+The battlefield got weird!
+
+#org @TargetTransformedIntoType
+[TARGET]'s type\nchanged to [BUFFER][00]!
+
+#org @gText_AttackerChangedType
+[ATTACKER]'s type\nchanged to [BUFFER][00]!
+
+#org @gText_AbilityChangedType
+[SCRIPTING_BANK]'s type\nchanged to [BUFFER][00]!
+
+#org @ThirdTypeAddedString
+[BUFFER][00] type was added to\n[TARGET]!
+
+#org @gText_MimicryReturnedToNormal
+[SCRIPTING_BANK] returned\nto its original type!
+
+#org @FairyLockString
+[ATTACKER] locked down\nthe battlefield!
+
+#org @HappyHourString
+Everyone is caught up in the\nhappy atmosphere!
+
+#org @CelebrateString
+Congratulations [PLAYER_NAME]!
+
+#org @HoldHandsString
+[ATTACKER] and [TARGET]\nheld hands!
+
+#org @TailwindSetString
+The tailwind blew from behind\n[FD][36] team!
+
+#org @LuckyChantSetString
+The Lucky Chant shielded\n[FD][36] team from critical hits!
+
+#org @EntrainmentString
+#org @WorrySeedString
+#org @SimpleBeamString
+[TARGET] acquired\n[TARGET_ABILITY]!
+
+#org @AbilitySuppressedString
+[TARGET]'s Ability\nwas suppressed!
+
+#org @TargetStatsResetString
+[TARGET]'s stat changes\nwere removed!
+
+#org @RoastedBerryString
+[TARGET]'s [FD][16]\nwas burnt up!
+
+#org @gText_TargetWasInfested
+[TARGET] has been\nafflicted with an Infestation!
+
+#org @SkyDropUpString
+[ATTACKER] took\n[TARGET] into the sky!
+
+#org @FreedFromSkyDropString
+[SCRIPTING_BANK] was freed\nfrom the Sky Drop!
+
+#org @CraftyShieldSetString
+Crafty Shield protected\n[FD][36] team!
+
+#org @MatBlockSetString
+[ATTACKER] intends to flip\nup a mat and block incoming attacks!
+
+#org @QuickGuardSetString
+Quick Guard protected\n[FD][36] team!
+
+#org @WideGuardSetString
+Wide Guard protected\n[FD][36] team!
+
+#org @CraftyShieldProtectedString
+The Crafty Shield protected\n[TARGET]!
+
+#org @MatBlockProtectedString
+[CURRENT_MOVE] was blocked by the\nkicked-up mat!
+
+#org @QuickGuardProtectedString
+The Quick Guard protected\n[TARGET]!
+
+#org @WideGuardProtectedString
+The Wide Guard protected\n[TARGET]!
+
+#org @gText_JawLockNoEscape
+Neither Pok\emon can run away!
+
+#org @gText_CanNoLongerEscape
+[TARGET] can no longer\nescape!
+
+#org @gText_CloakedInLight
+[ATTACKER] became\ncloaked in light!
+
+#org @gText_ItemPumpedMon
+[SCRIPTING_BANK] used the\n[LAST_ITEM] to get pumped!
+
+#org @gText_ItemIncreasedSpeedBracket
+[SCRIPTING_BANK] can act\nfaster, thanks to its [LAST_ITEM]!
+
+#org @gText_MeteorBeamCharge
+[ATTACKER] is\noverflowing with space power!
+
+//Status Strings
+
+#org @gText_TargetStaysAwake
+[TARGET] stays awake!
+
+#org @gText_TeamProtectedBySafeguard
+[TARGET]'s party is\nprotected by Safeguard!
+
+#org @gText_TargetWrappedInMistyTerrain
+[TARGET] surrounds\nitself in a protective mist!
+
+#org @gText_TargetWrappedInElectricTerrain
+[TARGET] surrounds\nitself with electrified terrain!
+
+#org @gText_TargetAlreadyHasStatusCondition
+[TARGET] already has\na status condition!
+
+#org @gText_AlreadyDrowsy
+[TARGET] is already\ndrowsy!
+
+#org @gText_SweetVeilProtects
+[TARGET] surrounded\nitself with a veil of sweetness!
+
+#org @gText_FlowerVeilProtects
+[TARGET] surrounded\nitself with a veil of petals!
+
+#org @gText_AromaVeilProtects
+[TARGET] is protected\nby an aromatic veil!
+
+#org @gText_SleepClausePrevents
+The sleep clause prevents more\nPok\emon from being put to sleep!
+
+#org @gText_AbilityPreventsStatLoss
+[SCRIPTING_BANK]'s stats were\nnot lowered!
+
+#org @gText_AbilityPreventsSpecificStatLoss
+[SCRIPTING_BANK]'s [BUFFER][00]\nwas not lowered!
+
+#org @gText_AbilityPreventsConfusion
+[SCRIPTING_BANK] doesn't\nbecome confused!
+
+#org @gText_AbilityBlocksHealBell
+[SCRIPTING_BANK] blocks\n[CURRENT_MOVE]!
+
+#org @gText_DefogRemovedSideStatus
+[FD][37] team's [BUFFER][00]\nwore off!
+
+#org @gText_ScreenRaisedStat
+[CURRENT_MOVE] raised [FD][36]\nteam's [BUFFER][00]!
+
+#org @gText_SetAuroraVeil
+Aurora Veil protects [FD][36] team\nagainst physical and special moves!
+
+#org @gText_ShroudedInMist
+[BUFFER][38] team became\nshrouded in Mist!
+
+#org @gText_SideStatusWoreOff
+[BUFFER][38] team's [BUFFER][00]\nwore off!
+
+#org @gText_TauntWoreOff
+[SCRIPTING_BANK]'s Taunt\nwore off!
+
+#org @gText_TailwindWoreOff
+[BUFFER][38] team's tailwind\npetered out!
+
+#org @gText_LuckyChantWoreOff
+[BUFFER][38] team's Lucky Chant wore off!
+
+#org @gText_RainbowDisappeared
+The rainbow on [FD][36] team's\nside disappeared!
+
+#org @gText_SeaOfFireDisappeared
+The sea of fire disappeared from\naround [FD][36] team!
+
+#org @gText_SwampDisappeared
+The swamp around [FD][36] team\ndisappeared!
+
+#org @gText_WhiteHerbFling
+The [LAST_ITEM] restored\n[SCRIPTING_BANK]'s status!
+
+#org @gText_BellyDrumMinimizedAttack
+[ATTACKER] cut its own HP\nand minimized Attack!
+
+#org @gText_SqueezedByOctolock
+[ATTACKER] was squeezed\nby the Octolock!
+
+#org @gText_NoRetreatTrapped
+[ATTACKER] can no longer\nescape because it used [CURRENT_MOVE]!
+
+#org @gText_TarShotAffected
+[TARGET] became\nweaker to fire!
+
+#org @gText_TargetWasCaughtInSnapTrap
+[TARGET] got trapped\nby a snap trap!
+
+#org @gText_HurtBySeaOfFire
+[ATTACKER] is hurt\nby the sea of fire!
+
+#org @gText_BallFetchRetrievedItem
+[SCRIPTING_BANK] found one\n[LAST_ITEM]!
+
+#org @gText_PerishBodyActivated
+Both Pok\emon will faint in\nthree turns!
+
+#org @gText_SurroundedByGMaxVineLash
+[FD][37] team got trapped\nwith vines!
+
+#org @gText_HurtByGMaxVineLash
+[ATTACKER] is hurt by\nG-Max Vine Lash's ferocious beating!
+
+#org @gText_GMaxVineLashEnded
+The vines around [FD][36]\nteam disappeared!
+
+#org @gText_SurroundedByGMaxWildfire
+[FD][37] team was surrounded\nby fire!
+
+#org @gText_HurtByGMaxWildfire
+[ATTACKER] is burning\nup within G-Max Wildfire's flame!
+
+#org @gText_GMaxWildfireEnded
+The G-Max Wildfire flames around\n[FD][36] team disappeared!
+
+#org @gText_SurroundedByGMaxCannonade
+[FD][37] team got caught in\nthe vortex of water!
+
+#org @gText_HurtByGMaxCannonade
+[ATTACKER] is hurt by\nG-Max Cannonade's vortex!
+
+#org @gText_GMaxCannonadeEnded
+The vortex of water around\n[FD][36] team disappeared!
+
+#org @gText_SurroundedByGMaxVolcalith
+[FD][37] team was surrounded\nby rocks!
+
+#org @gText_HurtByGMaxVolcalith
+[ATTACKER] is hurt\nby G-Max Volcalith's rocks!
+
+#org @gText_GMaxVolcalithEnded
+The G-Max Volcalith rocks around\n[FD][36] team disappeared!
+
+#org @gText_TrappedByGMaxCentiferno
+[FD][37] team has become\ntrapped in a fiery vortex!
+
+#org @gText_CouldntFullyProtect
+[TARGET] couldn't\nfully protect itself and got hurt!
+
+//Other Battle Features
+
+#org @gText_Devolved
+[EFFECT_BANK] has devolved\ninto [BUFFER][00]!
+
+#org @gText_DevolvedForgotMove
+[ATTACKER] devolved and\nforgot the move it was going to use!
+
+#org @gText_DevolutionsStatsReset
+[EFFECT_BANK]'s stats\nand primary status were reset!
+
+#org @gText_CamomonsTypeReveal
+[SCRIPTING_BANK] appears as the\n[BUFFER][00]-type!
+
+#org @gText_CamomonsTypeRevealDualType
+[SCRIPTING_BANK] appears as the\n[BUFFER][00]- and [BUFFER][01]-type!
+
+#org @gText_DynamaxUsable
+Dynamax Energy gathered\naround you!
+
+#org @gText_MonDynamaxed
+[SCRIPTING_BANK] created a\nprojection of itself with Dynamax!
+
+#org @gText_DynamaxEnded
+[SCRIPTING_BANK] is no longer\nDynamaxed!
+
+#org @gText_DynamaxAttackCancel
+[ATTACKER] shook its\nhead.\pIt seems like it can't use\nthis move[.]
+
+#org @gText_RaidBattleAttackCancel
+The move was blocked by the\npower of Dynamax!
+
+#org @gText_DynamaxItemBlock
+The item was blocked by the\npower of Dynamax!
+
+#org @gText_RaidBattleReveal
+[SCRIPTING_BANK] appears\nto be massive!
+
+#org @gText_RaidBattleStormStarted
+A storm started brewing above you.
+
+#org @gText_RaidPokemonGettingDesperate
+[SCRIPTING_BANK] is getting\ndesperate!\pIts attacks are growing more\naggressive!
+
+#org @gText_RaidShield
+A mysterious barrier appeared in\nfront of [SCRIPTING_BANK]\land is protecting it from attacks!
+
+#org @gText_RaidShieldProtected
+The mysterious barrier is\nprotecting [TARGET]\lfrom the impacts of the move!
+
+#org @gText_RaidShieldBroke
+The mysterious barrier that was\nprotecting [SCRIPTING_BANK]\ldisappeared!
+
+#org @gText_RaidBattleStatBoost
+[SCRIPTING_BANK]'s [BUFFER][00]\n[BUFFER][01]
+
+#org @gText_RaidBattleStatNullification
+[SCRIPTING_BANK] nullifed the\nstat changes of and is ignoring\lthe Abilities of other Pok\emon!
+
+#org @gText_RaidBattleKO1
+The storm raging above you is\ngrowing stronger!
+
+#org @gText_RaidBattleKO2
+The storm is growing even\nstronger!
+
+#org @gText_RaidBattleKO3
+The storm is getting too strong to\nwithstand!
+
+#org @gText_RaidBattleKO4
+[PLAYER_NAME] was blown out of the\nbattle!
+
+#org @gText_RaidMonRanAway
+[PLAY_SE][11][00][FD][06] disappeared\nsomewhere[.]\p
+

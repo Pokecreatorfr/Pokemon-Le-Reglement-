@@ -1,0 +1,6 @@
+#dynamic 0x800000
+#org @start
+msgbox @msg MSG_SIGN
+
+#org @msg 
+= Laboratoir du Prof. Le Règlement.
